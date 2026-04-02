@@ -53,8 +53,6 @@ def fetch_failed_trials() -> list[dict]:
         params = {
             "query.intr": ANTIBODY_QUERY,
             "filter.overallStatus": "|".join(FAILURE_STATUSES),
-            "filter.advanced": "AREA[InterventionType]BIOLOGICAL",
-            "filter.lastUpdatePostDate": f"{FAILURE_YEAR_START}-01-01",
             "fields": (
                 "NCTId,BriefTitle,OfficialTitle,OverallStatus,Phase,"
                 "LeadSponsorName,Condition,InterventionName,InterventionType,"
@@ -192,7 +190,7 @@ def fetch_fda_rejections() -> list[dict]:
     """
     rejections = []
     params = {
-        "search": 'submissions.action_type:"CRL"+AND+application_number:"BLA"',
+        "search": "application_number:BLA* AND submissions.action_type:CRL",
         "limit": 100,
     }
 
@@ -276,8 +274,8 @@ def main():
     print(f"Total failure records: {len(all_failures)}")
 
     out_path = DATA_DIR / "category3.json"
-    out_path.write_text(json.dumps(all_failures, indent=2, ensure_ascii=False))
-    print(f"Saved {len(all_failures)} records → {out_path}")
+    out_path.write_text(json.dumps(all_failures, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Saved {len(all_failures)} records -> {out_path}")
 
 
 if __name__ == "__main__":

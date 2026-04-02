@@ -194,8 +194,8 @@ def get_revenue_from_filing_text(cik: int, drug_name: str) -> str | None:
 
     # Extract revenue figures from the text snippet
     for hit in hits[:3]:
-        snippet = hit.get("_source", {}).get("file_description", "") + \
-                  hit.get("highlight", {}).get("file_description", [""])[0]
+        snippet = (hit.get("_source", {}).get("file_description") or "") + \
+                  (hit.get("highlight", {}).get("file_description", [""])[0] or "")
         # Look for dollar amounts near the drug name
         matches = re.findall(
             r"\$\s*([\d,\.]+)\s*(billion|million|B|M)\b",
@@ -224,7 +224,7 @@ def main():
         print("[ERROR] category1.json not found. Run fetch_category1.py first.")
         return
 
-    drugs = json.loads(cat1_path.read_text())
+    drugs = json.loads(cat1_path.read_text(encoding="utf-8"))
     print(f"Loaded {len(drugs)} drugs from category1.json")
 
     # Group by company to avoid redundant CIK lookups
@@ -270,7 +270,7 @@ def main():
         time.sleep(0.3)
 
     # Save enriched data back
-    cat1_path.write_text(json.dumps(drugs, indent=2, ensure_ascii=False))
+    cat1_path.write_text(json.dumps(drugs, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\nRevenue enrichment complete. {updated}/{len(drugs)} drugs had revenue data.")
     print(f"Saved → {cat1_path}")
 

@@ -1,15 +1,13 @@
 """
 fetch_category1.py
-Fetches all FDA-approved antibody-based therapeutics from the FDA Purple Book
-(biologics license applications) and Drugs@FDA API.
+Fetches all FDA-approved antibody-based therapeutics from openFDA (BLA applications).
 
 Sources:
-  - FDA Purple Book: https://purplebooksearch.fda.gov/
   - openFDA drug endpoint: https://api.fda.gov/drug/drugsfda.json
+  - FDA Purple Book CSV: https://www.fda.gov/media/89589/download
 """
 
 import json
-import re
 import time
 from datetime import datetime
 from pathlib import Path
@@ -22,22 +20,18 @@ import requests
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
-# Keywords that identify antibody-based biologics in product name / ingredient
 ANTIBODY_KEYWORDS = [
     "mab", "monoclonal", "antibody", "antibodies",
     "bispecific", "adc", "antibody-drug conjugate",
     "fab", "scfv", "nanobody", "immunoglobulin",
-    "bevacizumab", "trastuzumab",  # catch well-known stems
 ]
 
-# INN stems that identify monoclonal antibodies (WHO nomenclature)
 ANTIBODY_STEMS = [
     "mab", "ximab", "zumab", "umab", "imab", "tumab", "lumab",
-    "mumab", "nab", "lizumab", "ximab",
+    "mumab", "lizumab", "tuzumab", "xizumab",
 ]
 
 OPENFDA_URL = "https://api.fda.gov/drug/drugsfda.json"
-PURPLE_BOOK_URL = "https://purplebooksearch.fda.gov/api/v1/drugs"
 
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "antibody-tracker/1.0 (research project)"})
@@ -48,21 +42,20 @@ SESSION.headers.update({"User-Agent": "antibody-tracker/1.0 (research project)"}
 # ---------------------------------------------------------------------------
 
 def is_antibody(name: str) -> bool:
-    """Return True if the drug name looks like an antibody therapeutic."""
     name_lower = name.lower()
     if any(kw in name_lower for kw in ANTIBODY_KEYWORDS):
         return True
-    # Check INN stem (last 3–6 chars)
     if any(name_lower.endswith(stem) for stem in ANTIBODY_STEMS):
         return True
     return False
 
 
 def safe_get(url: str, params: dict, retries: int = 3) -> dict:
-    """GET with simple retry and rate-limit back-off."""
     for attempt in range(retries):
         try:
             resp = SESSION.get(url, params=params, timeout=30)
+            if resp.status_code == 404:
+                return {}   # openFDA returns 404 for empty results — not an error
             if resp.status_code == 429:
                 time.sleep(5 * (attempt + 1))
                 continue
@@ -77,169 +70,98 @@ def safe_get(url: str, params: dict, retries: int = 3) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Purple Book fetch  (primary: FDA biologics database)
+# openFDA — fetch ALL BLA applications then filter for antibodies
 # ---------------------------------------------------------------------------
 
-def fetch_purple_book() -> list[dict]:
+def fetch_all_bla_products() -> list[dict]:
     """
-    Query the FDA Purple Book search API for biologics.
-    Returns a list of raw product records.
+    Page through ALL BLA (Biologics License Application) submissions in openFDA
+    and return the raw result records.
     """
-    records = []
-    page = 1
-    page_size = 100
+    all_results = []
+    skip = 0
+    limit = 100
 
-    print("Fetching FDA Purple Book...")
+    print("Fetching all BLA applications from openFDA...")
     while True:
-        data = safe_get(PURPLE_BOOK_URL, {"page": page, "pageSize": page_size})
+        params = {
+            "search": "application_number:BLA*",
+            "limit": limit,
+            "skip": skip,
+        }
+        data = safe_get(OPENFDA_URL, params)
         if not data:
             break
 
-        items = data.get("data", data.get("results", []))
-        if not items:
+        results = data.get("results", [])
+        if not results:
             break
 
-        records.extend(items)
-        total = data.get("totalCount", data.get("total", 0))
-        print(f"  Page {page}: {len(items)} records (total so far: {len(records)} / {total})")
+        all_results.extend(results)
+        total = data.get("meta", {}).get("results", {}).get("total", 0)
+        print(f"  Fetched {len(all_results)} / {total} BLA records...")
 
-        if len(records) >= total or len(items) < page_size:
+        if len(all_results) >= total or len(results) < limit:
             break
-        page += 1
-        time.sleep(0.5)  # be polite
+        skip += limit
+        time.sleep(0.3)
 
-    return records
+    return all_results
 
 
-def parse_purple_book(records: list[dict]) -> list[dict]:
-    """Filter and normalise Purple Book records to antibody drugs."""
+def parse_bla_records(records: list[dict]) -> list[dict]:
+    """Filter BLA records to antibody drugs and normalise fields."""
     drugs = []
     for r in records:
-        # Purple Book field names vary — try common variants
-        name = (
-            r.get("proprietaryName") or r.get("brandName") or
-            r.get("productName") or r.get("ProprietaryName") or ""
-        )
-        inn = (
-            r.get("nonproprietaryName") or r.get("inn") or
-            r.get("activeIngredient") or r.get("NonproprietaryName") or ""
-        )
+        sponsor = r.get("sponsor_name", "")
+        app_num = r.get("application_number", "")
+        products = r.get("products", [])
 
-        if not is_antibody(name) and not is_antibody(inn):
-            continue
-
-        approval_date = (
-            r.get("approvalDate") or r.get("ApprovalDate") or
-            r.get("originalApprovalDate") or ""
-        )
-        company = (
-            r.get("applicantFullName") or r.get("applicant") or
-            r.get("Applicant") or r.get("sponsor") or ""
-        )
-        indication = r.get("indication") or r.get("Indication") or ""
-        patent_status = _parse_patent_status(r)
-
-        drugs.append({
-            "drug_name": name.strip(),
-            "inn": inn.strip(),
-            "company": company.strip(),
-            "approval_date": approval_date,
-            "indication": indication.strip(),
-            "patent_status": patent_status,
-            "revenue_2025": None,  # populated later by fetch_revenue.py
-            "source": "FDA Purple Book",
-            "last_fetched": datetime.utcnow().isoformat() + "Z",
-        })
-    return drugs
-
-
-def _parse_patent_status(record: dict) -> str:
-    """Derive a simple Active / Expired string from patent fields."""
-    expiry = (
-        record.get("patentExpirationDate") or
-        record.get("patentExpiry") or
-        record.get("exclusivityDate") or ""
-    )
-    if not expiry:
-        return "Unknown"
-    try:
-        exp_date = datetime.strptime(expiry[:10], "%Y-%m-%d")
-        return "Expired" if exp_date < datetime.utcnow() else "Active"
-    except ValueError:
-        return expiry  # return raw value if unparseable
-
-
-# ---------------------------------------------------------------------------
-# openFDA fallback / supplement
-# ---------------------------------------------------------------------------
-
-def fetch_openfda_antibodies() -> list[dict]:
-    """
-    Supplement with openFDA drug@FDA endpoint.
-    Searches BLA application type with antibody keyword in product name.
-    """
-    drugs = []
-    search_terms = ["mab", "monoclonal+antibody", "bispecific", "antibody-drug+conjugate"]
-
-    for term in search_terms:
-        params = {
-            "search": f'application_number:"BLA"+AND+openfda.brand_name:"{term}"',
-            "limit": 100,
-        }
-        data = safe_get(OPENFDA_URL, params)
-        results = data.get("results", [])
-        print(f"  openFDA '{term}': {len(results)} results")
-
-        for r in results:
-            products = r.get("products", [{}])
-            p = products[0] if products else {}
+        for p in products:
             brand = p.get("brand_name", "")
-            inn = p.get("active_ingredients", [{}])[0].get("name", "") if p.get("active_ingredients") else ""
+            ingredients = p.get("active_ingredients", [])
+            inn = ingredients[0].get("name", "") if ingredients else ""
 
             if not is_antibody(brand) and not is_antibody(inn):
                 continue
 
-            sponsor = r.get("sponsor_name", "")
-            app_num = r.get("application_number", "")
-            submissions = r.get("submissions", [])
+            # Find original approval date from submissions
             approval_date = ""
-            for sub in submissions:
+            for sub in r.get("submissions", []):
                 if sub.get("submission_type") == "ORIG" and sub.get("submission_status") == "AP":
                     approval_date = sub.get("submission_status_date", "")
                     break
+
+            # Patent / exclusivity: use marketing_status as proxy
+            mkt_status = p.get("marketing_status", "")
+            patent_status = "Active" if "prescription" in mkt_status.lower() else "Unknown"
 
             drugs.append({
                 "drug_name": brand.strip(),
                 "inn": inn.strip(),
                 "company": sponsor.strip(),
                 "approval_date": approval_date,
-                "indication": "",  # not reliably available in openFDA
-                "patent_status": "Unknown",
+                "indication": "",   # not reliably in openFDA; populated manually or later
+                "patent_status": patent_status,
                 "revenue_2025": None,
                 "application_number": app_num,
                 "source": "openFDA / Drugs@FDA",
+                "source_url": f"https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo={app_num.replace('BLA', '')}",
                 "last_fetched": datetime.utcnow().isoformat() + "Z",
             })
-        time.sleep(0.3)
 
     return drugs
 
 
-# ---------------------------------------------------------------------------
-# Deduplication
-# ---------------------------------------------------------------------------
-
 def deduplicate(drugs: list[dict]) -> list[dict]:
-    """Merge records with the same INN, preferring Purple Book data."""
     seen: dict[str, dict] = {}
     for drug in drugs:
-        key = drug["inn"].lower() or drug["drug_name"].lower()
+        key = (drug["inn"] or drug["drug_name"]).lower()
         if key not in seen:
             seen[key] = drug
         else:
-            # Keep existing (Purple Book preferred) but fill missing fields
             existing = seen[key]
-            for field in ["indication", "approval_date", "patent_status", "company"]:
+            for field in ["indication", "approval_date", "company"]:
                 if not existing.get(field) and drug.get(field):
                     existing[field] = drug[field]
     return list(seen.values())
@@ -252,24 +174,18 @@ def deduplicate(drugs: list[dict]) -> list[dict]:
 def main():
     print("=== Fetching Category 1: Marketed Antibody Drugs ===")
 
-    # 1. FDA Purple Book (primary)
-    raw = fetch_purple_book()
-    drugs = parse_purple_book(raw)
-    print(f"Purple Book antibodies found: {len(drugs)}")
+    raw = fetch_all_bla_products()
+    print(f"Total BLA records: {len(raw)}")
 
-    # 2. openFDA supplement
-    openfda_drugs = fetch_openfda_antibodies()
-    print(f"openFDA antibodies found: {len(openfda_drugs)}")
+    drugs = parse_bla_records(raw)
+    drugs = deduplicate(drugs)
+    drugs.sort(key=lambda d: d.get("approval_date") or "", reverse=True)
 
-    # 3. Merge & deduplicate
-    all_drugs = deduplicate(drugs + openfda_drugs)
-    all_drugs.sort(key=lambda d: d.get("approval_date") or "", reverse=True)
-    print(f"Total unique antibody drugs after dedup: {len(all_drugs)}")
+    print(f"Antibody drugs found: {len(drugs)}")
 
-    # 4. Save
     out_path = DATA_DIR / "category1.json"
-    out_path.write_text(json.dumps(all_drugs, indent=2, ensure_ascii=False))
-    print(f"Saved {len(all_drugs)} records → {out_path}")
+    out_path.write_text(json.dumps(drugs, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Saved {len(drugs)} records -> {out_path}")
 
 
 if __name__ == "__main__":

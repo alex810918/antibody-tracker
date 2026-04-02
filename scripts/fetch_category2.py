@@ -159,8 +159,8 @@ def main():
     print(f"Parsed records: {len(parsed)}")
 
     out_path = DATA_DIR / "category2.json"
-    out_path.write_text(json.dumps(parsed, indent=2, ensure_ascii=False))
-    print(f"Saved {len(parsed)} records → {out_path}")
+    out_path.write_text(json.dumps(parsed, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Saved {len(parsed)} records -> {out_path}")
 
 
 if __name__ == "__main__":
