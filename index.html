@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antibody Drug Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ── Header ── -->
+<header>
+  <h1>Antibody Drug Tracker</h1>
+  <p>Monoclonal antibodies, ADCs, bispecifics, and related biologics &mdash; sourced from FDA &amp; ClinicalTrials.gov</p>
+</header>
+
+<!-- ── Tabs ── -->
+<nav class="tabs" role="tablist" aria-label="Drug categories">
+  <button class="tab-btn active" role="tab" data-tab="cat1" aria-controls="panel-cat1" aria-selected="true">
+    Marketed Drugs
+    <span class="tab-count" id="tab-count-cat1">…</span>
+  </button>
+  <button class="tab-btn" role="tab" data-tab="cat2" aria-controls="panel-cat2" aria-selected="false">
+    In Clinical Trials
+    <span class="tab-count" id="tab-count-cat2">…</span>
+  </button>
+  <button class="tab-btn" role="tab" data-tab="cat3" aria-controls="panel-cat3" aria-selected="false">
+    Failed Programs
+    <span class="tab-count" id="tab-count-cat3">…</span>
+  </button>
+</nav>
+
+<!-- ── Main ── -->
+<main>
+
+  <!-- ── Category 1: Marketed Drugs ── -->
+  <section id="panel-cat1" class="tab-panel active" role="tabpanel" aria-labelledby="tab-cat1">
+    <div class="controls">
+      <input id="search-cat1" class="search-box" type="search"
+             placeholder="Search drugs, company, indication…" aria-label="Search marketed drugs" />
+      <select id="filter-cat1-company"     class="filter-select" aria-label="Filter by company"></select>
+      <select id="filter-cat1-patent_status" class="filter-select" aria-label="Filter by patent status"></select>
+      <span class="result-count">Showing <strong id="count-cat1">…</strong> drugs</span>
+    </div>
+    <div id="table-cat1"><p class="loading">Loading data…</p></div>
+  </section>
+
+  <!-- ── Category 2: In Clinical Trials ── -->
+  <section id="panel-cat2" class="tab-panel" role="tabpanel" aria-labelledby="tab-cat2">
+    <div class="controls">
+      <input id="search-cat2" class="search-box" type="search"
+             placeholder="Search drugs, sponsor, indication…" aria-label="Search clinical trials" />
+      <select id="filter-cat2-company" class="filter-select" aria-label="Filter by sponsor"></select>
+      <select id="filter-cat2-phase"   class="filter-select" aria-label="Filter by phase"></select>
+      <select id="filter-cat2-status"  class="filter-select" aria-label="Filter by status"></select>
+      <span class="result-count">Showing <strong id="count-cat2">…</strong> trials</span>
+    </div>
+    <div id="table-cat2"><p class="loading">Loading data…</p></div>
+  </section>
+
+  <!-- ── Category 3: Failed Programs ── -->
+  <section id="panel-cat3" class="tab-panel" role="tabpanel" aria-labelledby="tab-cat3">
+    <div class="controls">
+      <input id="search-cat3" class="search-box" type="search"
+             placeholder="Search drugs, sponsor, reason…" aria-label="Search failed programs" />
+      <select id="filter-cat3-company"       class="filter-select" aria-label="Filter by sponsor"></select>
+      <select id="filter-cat3-failure_stage" class="filter-select" aria-label="Filter by failure stage"></select>
+      <select id="filter-cat3-failure_type"  class="filter-select" aria-label="Filter by failure type"></select>
+      <span class="result-count">Showing <strong id="count-cat3">…</strong> programs</span>
+    </div>
+    <div id="table-cat3"><p class="loading">Loading data…</p></div>
+  </section>
+
+</main>
+
+<!-- ── Footer ── -->
+<footer>
+  <p>
+    Data last updated: <strong id="last-updated">…</strong>
+    &nbsp;&mdash;&nbsp;
+    Sources:
+    <a href="https://purplebooksearch.fda.gov/" target="_blank" rel="noopener">FDA Purple Book</a>,
+    <a href="https://clinicaltrials.gov/"       target="_blank" rel="noopener">ClinicalTrials.gov</a>,
+    <a href="https://open.fda.gov/"             target="_blank" rel="noopener">openFDA</a>,
+    <a href="https://www.sec.gov/edgar/"        target="_blank" rel="noopener">SEC EDGAR</a>
+    &nbsp;&mdash;&nbsp;
+    For research purposes only. Always verify with primary sources.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

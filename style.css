@@ -1,0 +1,221 @@
+/* ============================================================
+   Antibody Drug Tracker — Stylesheet
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --brand:       #1a5f9e;
+  --brand-light: #e8f1fb;
+  --accent:      #0f8a4c;
+  --warn:        #c0392b;
+  --warn-light:  #fdecea;
+  --neutral:     #6b7280;
+  --border:      #d1d5db;
+  --bg:          #f9fafb;
+  --white:       #ffffff;
+  --text:        #111827;
+  --text-muted:  #6b7280;
+  --radius:      6px;
+  --shadow:      0 1px 3px rgba(0,0,0,.08);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+/* ── Header ── */
+header {
+  background: var(--brand);
+  color: var(--white);
+  padding: 18px 24px 14px;
+}
+header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -.3px; }
+header p  { font-size: .85rem; opacity: .85; margin-top: 3px; }
+
+/* ── Tabs ── */
+.tabs {
+  display: flex;
+  gap: 0;
+  background: var(--white);
+  border-bottom: 2px solid var(--border);
+  padding: 0 24px;
+}
+.tab-btn {
+  padding: 12px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: .9rem;
+  color: var(--text-muted);
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  font-weight: 500;
+  transition: color .15s, border-color .15s;
+}
+.tab-btn:hover { color: var(--brand); }
+.tab-btn.active {
+  color: var(--brand);
+  border-bottom-color: var(--brand);
+}
+.tab-count {
+  display: inline-block;
+  background: var(--brand-light);
+  color: var(--brand);
+  border-radius: 10px;
+  padding: 1px 7px;
+  font-size: .75rem;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+/* ── Main content ── */
+main { padding: 20px 24px; }
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ── Controls bar ── */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+  align-items: center;
+}
+.search-box {
+  flex: 1;
+  min-width: 220px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: .9rem;
+  outline: none;
+  transition: border-color .15s;
+}
+.search-box:focus { border-color: var(--brand); }
+
+.filter-select {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: .85rem;
+  background: var(--white);
+  cursor: pointer;
+  color: var(--text);
+}
+.filter-select:focus { outline: none; border-color: var(--brand); }
+
+.result-count {
+  font-size: .82rem;
+  color: var(--text-muted);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* ── Table ── */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background: var(--white);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+thead th {
+  background: var(--brand);
+  color: var(--white);
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: .82rem;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+thead th:hover { background: #154f87; }
+thead th .sort-icon { opacity: .5; margin-left: 4px; }
+thead th.sorted-asc  .sort-icon::after { content: " ↑"; opacity: 1; }
+thead th.sorted-desc .sort-icon::after { content: " ↓"; opacity: 1; }
+
+tbody tr { border-bottom: 1px solid var(--border); }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: var(--brand-light); }
+tbody td { padding: 9px 12px; vertical-align: top; }
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ── Badges ── */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: .75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.badge-phase1 { background: #e0f2fe; color: #0369a1; }
+.badge-phase2 { background: #fef9c3; color: #854d0e; }
+.badge-phase3 { background: #dcfce7; color: #166534; }
+.badge-phase4 { background: #f3e8ff; color: #6b21a8; }
+.badge-unknown { background: #f3f4f6; color: #6b7280; }
+
+.badge-active  { background: #dcfce7; color: #166534; }
+.badge-expired { background: #fee2e2; color: #991b1b; }
+
+.badge-fda-reject { background: var(--warn-light); color: var(--warn); }
+.badge-sponsor    { background: #fff7ed; color: #9a3412; }
+.badge-unknown-fail { background: #f3f4f6; color: #6b7280; }
+
+/* ── Source label ── */
+.source-label {
+  font-size: .72rem;
+  color: var(--text-muted);
+  display: block;
+  margin-top: 2px;
+}
+a.source-link {
+  font-size: .72rem;
+  color: var(--brand);
+  text-decoration: none;
+}
+a.source-link:hover { text-decoration: underline; }
+
+/* ── Loading / error ── */
+.loading { text-align: center; padding: 40px; color: var(--text-muted); }
+.error-msg { color: var(--warn); background: var(--warn-light); padding: 12px 16px;
+             border-radius: var(--radius); margin-bottom: 14px; }
+
+/* ── Footer ── */
+footer {
+  text-align: center;
+  padding: 16px;
+  font-size: .78rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  margin-top: 24px;
+}
+footer a { color: var(--brand); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  header { padding: 12px 14px; }
+  main   { padding: 12px 14px; }
+  .tabs  { padding: 0 14px; overflow-x: auto; }
+  .tab-btn { padding: 10px 12px; font-size: .82rem; }
+  .controls { flex-direction: column; }
+  .search-box { min-width: 100%; }
+  .result-count { margin-left: 0; }
+}
