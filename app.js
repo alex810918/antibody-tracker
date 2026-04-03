@@ -15,14 +15,14 @@ const TABS = [
     id: "cat1",
     dataFile: "data/category1.json",
     columns: [
-      { key: "drug_name",      label: "Drug Name",      sortable: true },
-      { key: "inn",            label: "INN",             sortable: true },
-      { key: "company",        label: "Company",         sortable: true,  filter: true },
-      { key: "approval_date",  label: "Approval Date",   sortable: true },
-      { key: "indication",     label: "Indication",      sortable: false },
-      { key: "patent_status",  label: "Patent Status",   sortable: true,  filter: true, badge: "patent" },
-      { key: "revenue_2025",   label: "2025 Revenue",    sortable: false },
-      { key: "source",         label: "Source",          sortable: false, sourceCol: true },
+      { key: "drug_name",         label: "Drug Name",     sortable: true },
+      { key: "inn",               label: "INN",            sortable: true },
+      { key: "application_number", label: "BLA",           sortable: true },
+      { key: "company",           label: "Company",        sortable: true,  filter: true },
+      { key: "approval_date",     label: "Approval Date",  sortable: true },
+      { key: "indication",        label: "Indication",     sortable: false },
+      { key: "patent_status",     label: "Patent Status",  sortable: true,  filter: true, badge: "patent" },
+      { key: "source",            label: "Source",         sortable: false, sourceCol: true },
     ],
   },
   {
@@ -129,31 +129,32 @@ function renderCell(col, row) {
 
   // NCT ID → link to ClinicalTrials.gov
   if (col.nctLink && val) {
-    return `<a class="source-link" href="https://clinicaltrials.gov/study/${val}" target="_blank" rel="noopener">${val}</a>`;
+    return `<a class="source-link" href="https://clinicaltrials.gov/study/${escapeHtml(val)}" target="_blank" rel="noopener">${escapeHtml(val)}</a>`;
   }
 
   // Source column
   if (col.sourceCol) {
     const url = row.source_url || "";
     if (url) {
-      return `<a class="source-link" href="${url}" target="_blank" rel="noopener">${val || "Source"}</a>`;
+      return `<a class="source-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(String(val || "Source"))}</a>`;
     }
-    return `<span class="source-label">${val}</span>`;
+    return `<span class="source-label">${escapeHtml(String(val))}</span>`;
   }
 
   // Badge columns
   if (col.badge === "phase") {
-    return `<span class="badge ${phaseBadgeClass(val)}">${val || "—"}</span>`;
+    return `<span class="badge ${phaseBadgeClass(val)}">${escapeHtml(String(val || "—"))}</span>`;
   }
   if (col.badge === "patent") {
-    const cls = val === "Active" ? "badge-active" : val === "Expired" ? "badge-expired" : "badge-unknown";
-    return `<span class="badge ${cls}">${val || "Unknown"}</span>`;
+    const cls = val === "Active" ? "badge-active" : "badge-unknown";
+    return `<span class="badge ${cls}">${escapeHtml(String(val || "Unknown"))}</span>`;
   }
   if (col.badge === "failure") {
-    const cls = val.includes("FDA") ? "badge-fda-reject"
-              : val.includes("Sponsor") ? "badge-sponsor"
+    const cls = val === "Terminated" ? "badge-terminated"
+              : val === "Withdrawn"  ? "badge-withdrawn"
+              : val === "Suspended"  ? "badge-suspended"
               : "badge-unknown-fail";
-    return `<span class="badge ${cls}">${val || "—"}</span>`;
+    return `<span class="badge ${cls}">${escapeHtml(String(val || "—"))}</span>`;
   }
 
   return escapeHtml(String(val || "—"));
@@ -315,7 +316,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // Load data
   loadAll().catch(err => {
     console.error("Failed to load data:", err);
-    document.getElementById("table-cat1").innerHTML =
-      '<p class="error-msg">Failed to load data. Make sure to open this site via a web server, not directly as a local file.</p>';
+    const msg = '<p class="error-msg">Failed to load data. Make sure to open this site via a web server, not directly as a local file.</p>';
+    TABS.forEach(tab => {
+      const el = document.getElementById(`table-${tab.id}`);
+      if (el) el.innerHTML = msg;
+    });
   });
 });

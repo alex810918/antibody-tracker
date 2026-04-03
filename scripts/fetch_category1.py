@@ -31,7 +31,8 @@ ANTIBODY_STEMS = [
     "mumab", "lizumab", "tuzumab", "xizumab",
 ]
 
-OPENFDA_URL = "https://api.fda.gov/drug/drugsfda.json"
+OPENFDA_URL       = "https://api.fda.gov/drug/drugsfda.json"
+OPENFDA_LABEL_URL = "https://api.fda.gov/drug/label.json"
 
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "antibody-tracker/1.0 (research project)"})
@@ -67,6 +68,34 @@ def safe_get(url: str, params: dict, retries: int = 3) -> dict:
                 return {}
             time.sleep(2)
     return {}
+
+
+# ---------------------------------------------------------------------------
+# openFDA — indication from drug label (SPL)
+# ---------------------------------------------------------------------------
+
+def fetch_indication(app_num: str) -> str:
+    """
+    Fetch the indication text from the openFDA drug label endpoint using
+    the BLA application number (e.g. 'BLA761086').
+    Returns the first sentence of indications_and_usage, capped at 300 chars.
+    """
+    data = safe_get(OPENFDA_LABEL_URL, {
+        "search": f'openfda.application_number:"{app_num}"',
+        "limit": 1,
+    })
+    results = data.get("results", [])
+    if not results:
+        return ""
+    text = " ".join(results[0].get("indications_and_usage", [])).strip()
+    if not text:
+        return ""
+    # Return up to the first sentence boundary, capped at 300 chars
+    for delim in (". ", ".\n"):
+        idx = text.find(delim)
+        if 0 < idx < 300:
+            return text[:idx + 1].strip()
+    return text[:300].strip()
 
 
 # ---------------------------------------------------------------------------
@@ -180,8 +209,21 @@ def main():
     drugs = parse_bla_records(raw)
     drugs = deduplicate(drugs)
     drugs.sort(key=lambda d: d.get("approval_date") or "", reverse=True)
-
     print(f"Antibody drugs found: {len(drugs)}")
+
+    # Enrich indication from FDA drug labels
+    print("Fetching indications from openFDA drug labels...")
+    found = 0
+    for i, drug in enumerate(drugs):
+        app_num = drug.get("application_number", "")
+        if app_num:
+            indication = fetch_indication(app_num)
+            drug["indication"] = indication
+            if indication:
+                found += 1
+                print(f"  [{i+1}/{len(drugs)}] {drug['drug_name']}: {indication[:70]}...")
+        time.sleep(0.3)
+    print(f"Indications found: {found}/{len(drugs)}")
 
     out_path = DATA_DIR / "category1.json"
     out_path.write_text(json.dumps(drugs, indent=2, ensure_ascii=False), encoding="utf-8")

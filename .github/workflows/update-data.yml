@@ -1,9 +1,9 @@
 name: Update Antibody Data
 
 on:
-  # Runs automatically on the 1st and 15th of every month at 6:00 AM UTC
+  # Runs every Monday at 6:00 AM UTC
   schedule:
-    - cron: '0 6 1,15 * *'
+    - cron: '0 6 * * 1'
 
   # Also allows you to trigger the update manually from GitHub's Actions tab
   workflow_dispatch:
@@ -41,3 +41,21 @@ jobs:
             git commit -m "chore: auto-update antibody data [$(date -u '+%Y-%m-%d')]"
             git push
           fi
+
+      - name: Send update notification email
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          secure: false
+          username: syuanting918@gmail.com
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "Antibody Tracker — Weekly update ${{ job.status }} (${{ github.run_id }})"
+          to: syuanting918@gmail.com
+          from: Antibody Tracker <syuanting918@gmail.com>
+          body: |
+            Weekly data update finished with status: ${{ job.status }}
+
+            View the site: https://alex810918.github.io/antibody-tracker/
+            View the workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}

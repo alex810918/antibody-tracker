@@ -28,11 +28,8 @@ import requests
 # ---------------------------------------------------------------------------
 
 DATA_DIR = Path(__file__).parent.parent / "data"
-EDGAR_COMPANY_SEARCH = "https://efts.sec.gov/LATEST/search-index?q={company}&dateRange=custom&startdt=2025-01-01&enddt=2025-12-31&forms=10-K,10-Q"
-EDGAR_FULL_TEXT = "https://efts.sec.gov/LATEST/search-index"
-EDGAR_SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik:010d}.json"
+EDGAR_FULL_TEXT   = "https://efts.sec.gov/LATEST/search-index"
 EDGAR_COMPANY_FACTS = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json"
-EDGAR_COMPANY_SEARCH_API = "https://efts.sec.gov/LATEST/search-index?q=%22{name}%22&forms=10-K"
 
 # Well-known company name → SEC ticker overrides (avoids ambiguous searches)
 COMPANY_TICKER_MAP = {

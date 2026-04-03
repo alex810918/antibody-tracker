@@ -20,10 +20,9 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 SCRIPTS = [
-    "fetch_category1",   # FDA Purple Book → data/category1.json
+    "fetch_category1",   # openFDA BLA → data/category1.json (includes indication lookup)
     "fetch_category2",   # ClinicalTrials.gov active → data/category2.json
-    "fetch_category3",   # ClinicalTrials.gov failed → data/category3.json
-    "fetch_revenue",     # SEC EDGAR → enriches category1.json with 2025 revenue
+    "fetch_category3",   # ClinicalTrials.gov failed/withdrawn/suspended → data/category3.json
 ]
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -52,7 +51,7 @@ def write_last_updated():
     """Write the current UTC timestamp to data/last_updated.json."""
     now = datetime.now(timezone.utc).isoformat()
     path = DATA_DIR / "last_updated.json"
-    path.write_text(json.dumps({"last_updated": now}, indent=2))
+    path.write_text(json.dumps({"last_updated": now}, indent=2), encoding="utf-8")
     print(f"\nTimestamp written: {now}")
 
 

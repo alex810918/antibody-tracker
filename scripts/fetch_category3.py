@@ -23,7 +23,7 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 CT_BASE = "https://clinicaltrials.gov/api/v2/studies"
 OPENFDA_URL = "https://api.fda.gov/drug/drugsfda.json"
 
-FAILURE_STATUSES = ["TERMINATED", "WITHDRAWN"]
+FAILURE_STATUSES = ["TERMINATED", "WITHDRAWN", "SUSPENDED"]
 FAILURE_YEAR_START = 2021
 FAILURE_YEAR_END = 2026
 
@@ -84,41 +84,11 @@ def fetch_failed_trials() -> list[dict]:
     return all_studies
 
 
-def _classify_reason(why_stopped: str, status: str) -> tuple[str, str]:
-    """
-    Returns (failure_type, reason) based on why_stopped text and status.
-    failure_type: 'Sponsor withdrawal' | 'FDA rejection (CRL)' | 'Unknown'
-    """
-    if not why_stopped:
-        return "Sponsor withdrawal" if status == "WITHDRAWN" else "Unknown", \
-               "Reason not publicly disclosed"
-
-    ws_lower = why_stopped.lower()
-
-    # FDA-related keywords
-    if any(kw in ws_lower for kw in ["fda", "crl", "complete response", "refuse to file",
-                                      "rtf", "regulatory", "agency"]):
-        return "FDA rejection (CRL)", why_stopped
-
-    # Safety signals
-    if any(kw in ws_lower for kw in ["safety", "adverse", "toxicity", "death", "serious"]):
-        return "Sponsor withdrawal", f"Safety concerns: {why_stopped}"
-
-    # Efficacy
-    if any(kw in ws_lower for kw in ["efficacy", "futility", "interim analysis",
-                                      "did not meet", "failed to", "lack of"]):
-        return "Sponsor withdrawal", f"Efficacy failure: {why_stopped}"
-
-    # Business
-    if any(kw in ws_lower for kw in ["business", "financial", "funding", "commercial",
-                                      "strategic", "portfolio"]):
-        return "Sponsor withdrawal", f"Business decision: {why_stopped}"
-
-    # Enrollment
-    if any(kw in ws_lower for kw in ["enroll", "recruitment", "accrual", "feasibility"]):
-        return "Sponsor withdrawal", f"Enrollment issues: {why_stopped}"
-
-    return "Sponsor withdrawal", why_stopped
+_STATUS_DISPLAY = {
+    "TERMINATED": "Terminated",
+    "WITHDRAWN":  "Withdrawn",
+    "SUSPENDED":  "Suspended",
+}
 
 
 def parse_failed_study(study: dict) -> dict | None:
@@ -160,10 +130,13 @@ def parse_failed_study(study: dict) -> dict | None:
         i.get("name", "") for i in interventions
         if i.get("type", "").upper() == "BIOLOGICAL"
     ]
+    # If no BIOLOGICAL interventions, fall back to any intervention name
+    if not drug_names:
+        drug_names = [i.get("name", "") for i in interventions if i.get("name", "")]
     title = id_mod.get("briefTitle", id_mod.get("officialTitle", ""))
     drug_name = "; ".join(drug_names[:2]) if drug_names else title
 
-    failure_type, reason = _classify_reason(why_stopped, status)
+    failure_type = _STATUS_DISPLAY.get(status, status.title())
 
     return {
         "drug_name": drug_name.strip(),
@@ -171,7 +144,7 @@ def parse_failed_study(study: dict) -> dict | None:
         "company": company.strip(),
         "failure_stage": phase,
         "failure_type": failure_type,
-        "reason": reason or "Reason not publicly disclosed",
+        "reason": why_stopped.strip() or "Reason not publicly disclosed",
         "indication": indication,
         "source": "ClinicalTrials.gov",
         "source_url": f"https://clinicaltrials.gov/study/{nct_id}",
