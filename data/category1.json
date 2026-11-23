@@ -1,16 +1,29 @@
 [
   {
+    "drug_name": "KLYGEFA",
+    "inn": "GEFURULIMAB-GAKS",
+    "company": "ALEXION PHARM",
+    "approval_date": "20261113",
+    "indication": "",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA761488",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761488",
+    "last_fetched": "2026-11-23T16:57:55.015471Z"
+  },
+  {
     "drug_name": "LUCAMZI",
     "inn": "RANIBIZUMAB-BLRZ",
     "company": "XBRANE BIOPHARMA AB",
     "approval_date": "20261027",
-    "indication": "",
+    "indication": "1 INDICATIONS AND USAGE LUCAMZI ® is indicated for the treatment of patients with: LUCAMZI ® , a vascular endothelial growth factor (VEGF) inhibitor, is indicated for the treatment of patients with: Neovascular (Wet) Age-Related Macular Degeneration (AMD) ( 1.1 ) Macular Edema Following Retinal Vein",
     "patent_status": "Active",
     "revenue_2025": null,
     "application_number": "BLA761187",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761187",
-    "last_fetched": "2026-11-16T14:23:59.756746Z"
+    "last_fetched": "2026-11-23T16:57:55.017241Z"
   },
   {
     "drug_name": "ISEMBYLD",
@@ -23,7 +36,7 @@
     "application_number": "BLA761463",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761463",
-    "last_fetched": "2026-11-16T14:23:59.760072Z"
+    "last_fetched": "2026-11-23T16:57:55.015282Z"
   },
   {
     "drug_name": "PASATRU",
@@ -36,7 +49,7 @@
     "application_number": "BLA761508",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761508",
-    "last_fetched": "2026-11-16T14:23:59.760252Z"
+    "last_fetched": "2026-11-23T16:57:55.015661Z"
   },
   {
     "drug_name": "ZIMRIXBY",
@@ -49,7 +62,7 @@
     "application_number": "BLA761376",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761376",
-    "last_fetched": "2026-11-16T14:23:59.758700Z"
+    "last_fetched": "2026-11-23T16:57:55.013861Z"
   },
   {
     "drug_name": "LYTENAVA",
@@ -62,7 +75,7 @@
     "application_number": "BLA761320",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761320",
-    "last_fetched": "2026-11-16T14:23:59.758001Z"
+    "last_fetched": "2026-11-23T16:57:55.013104Z"
   },
   {
     "drug_name": "SARCLISA ESCENA",
@@ -75,7 +88,7 @@
     "application_number": "BLA761445",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761445",
-    "last_fetched": "2026-11-16T14:23:59.759789Z"
+    "last_fetched": "2026-11-23T16:57:55.015060Z"
   },
   {
     "drug_name": "RANLUSPEC",
@@ -88,7 +101,7 @@
     "application_number": "BLA761480",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761480",
-    "last_fetched": "2026-11-16T14:23:59.760161Z"
+    "last_fetched": "2026-11-23T16:57:55.015426Z"
   },
   {
     "drug_name": "DECNUPAZ",
@@ -101,7 +114,7 @@
     "application_number": "BLA761460",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761460",
-    "last_fetched": "2026-11-16T14:23:59.760053Z"
+    "last_fetched": "2026-11-23T16:57:55.015260Z"
   },
   {
     "drug_name": "IMMGOLIS",
@@ -114,7 +127,7 @@
     "application_number": "BLA761452",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761452",
-    "last_fetched": "2026-11-16T14:23:59.759872Z"
+    "last_fetched": "2026-11-23T16:57:55.015176Z"
   },
   {
     "drug_name": "SAPHNELO",
@@ -127,7 +140,7 @@
     "application_number": "BLA761451",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761451",
-    "last_fetched": "2026-11-16T14:23:59.759925Z"
+    "last_fetched": "2026-11-23T16:57:55.015151Z"
   },
   {
     "drug_name": "PONLIMSI",
@@ -140,7 +153,7 @@
     "application_number": "BLA761385",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761385",
-    "last_fetched": "2026-11-16T14:23:59.758911Z"
+    "last_fetched": "2026-11-23T16:57:55.014180Z"
   },
   {
     "drug_name": "YARTEMLEA",
@@ -153,7 +166,7 @@
     "application_number": "BLA761152",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761152",
-    "last_fetched": "2026-11-16T14:23:59.761038Z"
+    "last_fetched": "2026-11-23T16:57:55.016708Z"
   },
   {
     "drug_name": "BONCRESA",
@@ -166,7 +179,7 @@
     "application_number": "BLA761456",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761456",
-    "last_fetched": "2026-11-16T14:23:59.759958Z"
+    "last_fetched": "2026-11-23T16:57:55.015088Z"
   },
   {
     "drug_name": "NUFYMCO",
@@ -179,7 +192,7 @@
     "application_number": "BLA761473",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761473",
-    "last_fetched": "2026-11-16T14:23:59.760140Z"
+    "last_fetched": "2026-11-23T16:57:55.015403Z"
   },
   {
     "drug_name": "RYBREVANT FASPRO",
@@ -192,7 +205,7 @@
     "application_number": "BLA761433",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761433",
-    "last_fetched": "2026-11-16T14:23:59.759755Z"
+    "last_fetched": "2026-11-23T16:57:55.014797Z"
   },
   {
     "drug_name": "EXDENSUR",
@@ -205,7 +218,7 @@
     "application_number": "BLA761458",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761458",
-    "last_fetched": "2026-11-16T14:23:59.759943Z"
+    "last_fetched": "2026-11-23T16:57:55.015232Z"
   },
   {
     "drug_name": "VOYXACT",
@@ -218,7 +231,7 @@
     "application_number": "BLA761434",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761434",
-    "last_fetched": "2026-11-16T14:23:59.759771Z"
+    "last_fetched": "2026-11-23T16:57:55.014926Z"
   },
   {
     "drug_name": "POHERDY",
@@ -231,7 +244,7 @@
     "application_number": "BLA761450",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761450",
-    "last_fetched": "2026-11-16T14:23:59.759912Z"
+    "last_fetched": "2026-11-23T16:57:55.015135Z"
   },
   {
     "drug_name": "DENOSUMAB-DSSB",
@@ -244,7 +257,7 @@
     "application_number": "BLA761392",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761392",
-    "last_fetched": "2026-11-16T14:23:59.759021Z"
+    "last_fetched": "2026-11-23T16:57:55.014284Z"
   },
   {
     "drug_name": "OSVYRTI",
@@ -257,7 +270,7 @@
     "application_number": "BLA761424",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761424",
-    "last_fetched": "2026-11-16T14:23:59.759510Z"
+    "last_fetched": "2026-11-23T16:57:55.014562Z"
   },
   {
     "drug_name": "BLENREP",
@@ -270,7 +283,7 @@
     "application_number": "BLA761440",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761440",
-    "last_fetched": "2026-11-16T14:23:59.759840Z"
+    "last_fetched": "2026-11-23T16:57:55.014900Z"
   },
   {
     "drug_name": "ENOBY",
@@ -283,7 +296,7 @@
     "application_number": "BLA761439",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761439",
-    "last_fetched": "2026-11-16T14:23:59.759823Z"
+    "last_fetched": "2026-11-23T16:57:55.014974Z"
   },
   {
     "drug_name": "AUKELSO",
@@ -296,7 +309,20 @@
     "application_number": "BLA761436",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761436",
-    "last_fetched": "2026-11-16T14:23:59.759728Z"
+    "last_fetched": "2026-11-23T16:57:55.014951Z"
+  },
+  {
+    "drug_name": "LEQEMBI IQLIK",
+    "inn": "LECANEMAB-IRMB",
+    "company": "EISAI INC",
+    "approval_date": "20250829",
+    "indication": "1 INDICATIONS AND USAGE LEQEMBI is indicated for the treatment of Alzheimer’s disease.",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA761375",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761375",
+    "last_fetched": "2026-11-23T16:57:55.013919Z"
   },
   {
     "drug_name": "BILPREVDA",
@@ -309,7 +335,7 @@
     "application_number": "BLA761444",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761444",
-    "last_fetched": "2026-11-16T14:23:59.759854Z"
+    "last_fetched": "2026-11-23T16:57:55.015014Z"
   },
   {
     "drug_name": "ALHEMO",
@@ -322,7 +348,7 @@
     "application_number": "BLA761428",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761428",
-    "last_fetched": "2026-11-16T14:23:59.759600Z"
+    "last_fetched": "2026-11-23T16:57:55.014689Z"
   },
   {
     "drug_name": "LYNOZYFIC",
@@ -335,7 +361,7 @@
     "application_number": "BLA761400",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761400",
-    "last_fetched": "2026-11-16T14:23:59.759138Z"
+    "last_fetched": "2026-11-23T16:57:55.014396Z"
   },
   {
     "drug_name": "ANDEMBRY",
@@ -348,7 +374,7 @@
     "application_number": "BLA761367",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761367",
-    "last_fetched": "2026-11-16T14:23:59.758676Z"
+    "last_fetched": "2026-11-23T16:57:55.013826Z"
   },
   {
     "drug_name": "ENFLONSIA",
@@ -361,7 +387,7 @@
     "application_number": "BLA761432",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761432",
-    "last_fetched": "2026-11-16T14:23:59.759579Z"
+    "last_fetched": "2026-11-23T16:57:55.014883Z"
   },
   {
     "drug_name": "STARJEMZA",
@@ -374,7 +400,7 @@
     "application_number": "BLA761419",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761419",
-    "last_fetched": "2026-11-16T14:23:59.759391Z"
+    "last_fetched": "2026-11-23T16:57:55.014614Z"
   },
   {
     "drug_name": "EMRELIS",
@@ -387,7 +413,7 @@
     "application_number": "BLA761384",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761384",
-    "last_fetched": "2026-11-16T14:23:59.758894Z"
+    "last_fetched": "2026-11-23T16:57:55.014132Z"
   },
   {
     "drug_name": "OTULFI",
@@ -400,7 +426,7 @@
     "application_number": "BLA761379",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761379",
-    "last_fetched": "2026-11-16T14:23:59.758812Z"
+    "last_fetched": "2026-11-23T16:57:55.014066Z"
   },
   {
     "drug_name": "IMAAVY",
@@ -413,7 +439,7 @@
     "application_number": "BLA761430",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761430",
-    "last_fetched": "2026-11-16T14:23:59.759661Z"
+    "last_fetched": "2026-11-23T16:57:55.014842Z"
   },
   {
     "drug_name": "PENPULIMAB-KCQX",
@@ -426,7 +452,7 @@
     "application_number": "BLA761258",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761258",
-    "last_fetched": "2026-11-16T14:23:59.757307Z"
+    "last_fetched": "2026-11-23T16:57:55.018104Z"
   },
   {
     "drug_name": "JOBEVNE",
@@ -439,7 +465,7 @@
     "application_number": "BLA761175",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761175",
-    "last_fetched": "2026-11-16T14:23:59.756632Z"
+    "last_fetched": "2026-11-23T16:57:55.016977Z"
   },
   {
     "drug_name": "CONEXXENCE",
@@ -452,7 +478,7 @@
     "application_number": "BLA761398",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761398",
-    "last_fetched": "2026-11-16T14:23:59.758975Z"
+    "last_fetched": "2026-11-23T16:57:55.014346Z"
   },
   {
     "drug_name": "OMLYCLO",
@@ -465,7 +491,7 @@
     "application_number": "BLA761399",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761399",
-    "last_fetched": "2026-11-16T14:23:59.759091Z"
+    "last_fetched": "2026-11-23T16:57:55.014254Z"
   },
   {
     "drug_name": "TEVIMBRA",
@@ -478,7 +504,7 @@
     "application_number": "BLA761380",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761380",
-    "last_fetched": "2026-11-16T14:23:59.758776Z"
+    "last_fetched": "2026-11-23T16:57:55.013960Z"
   },
   {
     "drug_name": "OSENVELT",
@@ -491,7 +517,7 @@
     "application_number": "BLA761404",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761404",
-    "last_fetched": "2026-11-16T14:23:59.759073Z"
+    "last_fetched": "2026-11-23T16:57:55.014415Z"
   },
   {
     "drug_name": "AVTOZMA",
@@ -504,7 +530,7 @@
     "application_number": "BLA761420",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761420",
-    "last_fetched": "2026-11-16T14:23:59.759461Z"
+    "last_fetched": "2026-11-23T16:57:55.014653Z"
   },
   {
     "drug_name": "DATROWAY",
@@ -517,7 +543,33 @@
     "application_number": "BLA761394",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761394",
-    "last_fetched": "2026-11-16T14:23:59.759052Z"
+    "last_fetched": "2026-11-23T16:57:55.014326Z"
+  },
+  {
+    "drug_name": "OPDIVO QVANTIG",
+    "inn": "NIVOLUMAB",
+    "company": "BRISTOL-MYERS SQUIBB",
+    "approval_date": "20241227",
+    "indication": "1 INDICATIONS AND USAGE OPDIVO QVANTIG is a combination of nivolumab, a programmed death receptor-1 (PD-1)-blocking antibody, and hyaluronidase, an endoglycosidase, indicated for the treatment of: Renal Cell Carcinoma (RCC) • adult patients with intermediate or poor risk advanced RCC, as a first-lin",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA761381",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761381",
+    "last_fetched": "2026-11-23T16:57:55.014097Z"
+  },
+  {
+    "drug_name": "TEVIMBRA",
+    "inn": "TISLELIZUMAB-JSGR",
+    "company": "BEIGENE",
+    "approval_date": "20241226",
+    "indication": "",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA761417",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761417",
+    "last_fetched": "2026-11-23T16:57:55.014586Z"
   },
   {
     "drug_name": "ALHEMO",
@@ -530,7 +582,7 @@
     "application_number": "BLA761315",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761315",
-    "last_fetched": "2026-11-16T14:23:59.757911Z"
+    "last_fetched": "2026-11-23T16:57:55.013159Z"
   },
   {
     "drug_name": "STEQEYMA",
@@ -543,7 +595,7 @@
     "application_number": "BLA761338",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761338",
-    "last_fetched": "2026-11-16T14:23:59.758224Z"
+    "last_fetched": "2026-11-23T16:57:55.013432Z"
   },
   {
     "drug_name": "UNLOXCYT",
@@ -556,7 +608,20 @@
     "application_number": "BLA761297",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761297",
-    "last_fetched": "2026-11-16T14:23:59.757745Z"
+    "last_fetched": "2026-11-23T16:57:55.012898Z"
+  },
+  {
+    "drug_name": "NEMLUVIO",
+    "inn": "NEMOLIZUMAB-ILTO",
+    "company": "GALDERMA LABS LP",
+    "approval_date": "20241213",
+    "indication": "",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA761391",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761391",
+    "last_fetched": "2026-11-23T16:57:55.014157Z"
   },
   {
     "drug_name": "BIZENGRI",
@@ -569,7 +634,7 @@
     "application_number": "BLA761352",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761352",
-    "last_fetched": "2026-11-16T14:23:59.758490Z"
+    "last_fetched": "2026-11-23T16:57:55.012618Z"
   },
   {
     "drug_name": "YESINTEK",
@@ -582,7 +647,7 @@
     "application_number": "BLA761406",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761406",
-    "last_fetched": "2026-11-16T14:23:59.759195Z"
+    "last_fetched": "2026-11-23T16:57:55.014360Z"
   },
   {
     "drug_name": "ZIIHERA",
@@ -595,7 +660,7 @@
     "application_number": "BLA761416",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761416",
-    "last_fetched": "2026-11-16T14:23:59.759336Z"
+    "last_fetched": "2026-11-23T16:57:55.014444Z"
   },
   {
     "drug_name": "VYLOY",
@@ -608,7 +673,7 @@
     "application_number": "BLA761365",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761365",
-    "last_fetched": "2026-11-16T14:23:59.758664Z"
+    "last_fetched": "2026-11-23T16:57:55.013791Z"
   },
   {
     "drug_name": "HYMPAVZI",
@@ -621,7 +686,7 @@
     "application_number": "BLA761369",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761369",
-    "last_fetched": "2026-11-16T14:23:59.758651Z"
+    "last_fetched": "2026-11-23T16:57:55.013846Z"
   },
   {
     "drug_name": "IMULDOSA",
@@ -634,7 +699,7 @@
     "application_number": "BLA761364",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761364",
-    "last_fetched": "2026-11-16T14:23:59.758541Z"
+    "last_fetched": "2026-11-23T16:57:55.013635Z"
   },
   {
     "drug_name": "EBGLYSS",
@@ -647,7 +712,7 @@
     "application_number": "BLA761306",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761306",
-    "last_fetched": "2026-11-16T14:23:59.757865Z"
+    "last_fetched": "2026-11-23T16:57:55.013026Z"
   },
   {
     "drug_name": "OCREVUS ZUNOVO",
@@ -660,7 +725,7 @@
     "application_number": "BLA761371",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761371",
-    "last_fetched": "2026-11-16T14:23:59.758732Z"
+    "last_fetched": "2026-11-23T16:57:55.013772Z"
   },
   {
     "drug_name": "TECENTRIQ HYBREZA",
@@ -673,7 +738,7 @@
     "application_number": "BLA761347",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761347",
-    "last_fetched": "2026-11-16T14:23:59.758409Z"
+    "last_fetched": "2026-11-23T16:57:55.013549Z"
   },
   {
     "drug_name": "NIKTIMVO",
@@ -686,20 +751,7 @@
     "application_number": "BLA761411",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761411",
-    "last_fetched": "2026-11-16T14:23:59.759297Z"
-  },
-  {
-    "drug_name": "NEMLUVIO",
-    "inn": "NEMOLIZUMAB-ILTO",
-    "company": "GALDERMA LABS LP",
-    "approval_date": "20240812",
-    "indication": "1 INDICATIONS AND USAGE NEMLUVIO is an interleukin-31 receptor antagonist indicated for: Prurigo Nodularis The treatment of adults with prurigo nodularis.",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA761390",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761390",
-    "last_fetched": "2026-11-16T14:23:59.758879Z"
+    "last_fetched": "2026-11-23T16:57:55.014511Z"
   },
   {
     "drug_name": "EPYSQLI",
@@ -712,7 +764,7 @@
     "application_number": "BLA761340",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761340",
-    "last_fetched": "2026-11-16T14:23:59.758277Z"
+    "last_fetched": "2026-11-23T16:57:55.013495Z"
   },
   {
     "drug_name": "KISUNLA",
@@ -725,7 +777,7 @@
     "application_number": "BLA761248",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761248",
-    "last_fetched": "2026-11-16T14:23:59.759679Z"
+    "last_fetched": "2026-11-23T16:57:55.017992Z"
   },
   {
     "drug_name": "PYZCHIVA",
@@ -738,7 +790,7 @@
     "application_number": "BLA761373",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761373",
-    "last_fetched": "2026-11-16T14:23:59.758747Z"
+    "last_fetched": "2026-11-23T16:57:55.013882Z"
   },
   {
     "drug_name": "PIASKY",
@@ -751,7 +803,7 @@
     "application_number": "BLA761388",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761388",
-    "last_fetched": "2026-11-16T14:23:59.758954Z"
+    "last_fetched": "2026-11-23T16:57:55.014196Z"
   },
   {
     "drug_name": "BKEMV",
@@ -764,7 +816,7 @@
     "application_number": "BLA761333",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761333",
-    "last_fetched": "2026-11-16T14:23:59.758157Z"
+    "last_fetched": "2026-11-23T16:57:55.013289Z"
   },
   {
     "drug_name": "IMDELLTRA",
@@ -777,7 +829,7 @@
     "application_number": "BLA761344",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761344",
-    "last_fetched": "2026-11-16T14:23:59.758331Z"
+    "last_fetched": "2026-11-23T16:57:55.013577Z"
   },
   {
     "drug_name": "HERCESSI",
@@ -790,7 +842,7 @@
     "application_number": "BLA761346",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761346",
-    "last_fetched": "2026-11-16T14:23:59.758293Z"
+    "last_fetched": "2026-11-23T16:57:55.013617Z"
   },
   {
     "drug_name": "ENTYVIO",
@@ -803,7 +855,7 @@
     "application_number": "BLA761359",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761359",
-    "last_fetched": "2026-11-16T14:23:59.758572Z"
+    "last_fetched": "2026-11-23T16:57:55.013664Z"
   },
   {
     "drug_name": "SELARSDI",
@@ -816,20 +868,7 @@
     "application_number": "BLA761343",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761343",
-    "last_fetched": "2026-11-16T14:23:59.758305Z"
-  },
-  {
-    "drug_name": "TEVIMBRA",
-    "inn": "TISLELIZUMAB-JSGR",
-    "company": "BEIGENE",
-    "approval_date": "20240313",
-    "indication": "1 INDICATIONS AND USAGE TEVIMBRA is a programmed death receptor-1 (PD-1)-blocking antibody indicated for: Esophageal Cancer in combination with platinum-containing chemotherapy for the first-line treatment of adults with unresectable or metastatic esophageal squamous cell carcinoma (ESCC) whose tumo",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA761232",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761232",
-    "last_fetched": "2026-11-16T14:23:59.756496Z"
+    "last_fetched": "2026-11-23T16:57:55.013470Z"
   },
   {
     "drug_name": "TYENNE",
@@ -842,7 +881,7 @@
     "application_number": "BLA761275",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761275",
-    "last_fetched": "2026-11-16T14:23:59.757565Z"
+    "last_fetched": "2026-11-23T16:57:55.012670Z"
   },
   {
     "drug_name": "JUBBONTI",
@@ -855,7 +894,7 @@
     "application_number": "BLA761362",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761362",
-    "last_fetched": "2026-11-16T14:23:59.758603Z"
+    "last_fetched": "2026-11-23T16:57:55.013687Z"
   },
   {
     "drug_name": "SIMLANDI",
@@ -868,7 +907,7 @@
     "application_number": "BLA761299",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761299",
-    "last_fetched": "2026-11-16T14:23:59.757816Z"
+    "last_fetched": "2026-11-23T16:57:55.012978Z"
   },
   {
     "drug_name": "IDACIO",
@@ -881,7 +920,7 @@
     "application_number": "BLA761255",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761255",
-    "last_fetched": "2026-11-16T14:23:59.757288Z"
+    "last_fetched": "2026-11-23T16:57:55.017899Z"
   },
   {
     "drug_name": "AVZIVI",
@@ -894,7 +933,7 @@
     "application_number": "BLA761198",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761198",
-    "last_fetched": "2026-11-16T14:23:59.756861Z"
+    "last_fetched": "2026-11-23T16:57:55.017445Z"
   },
   {
     "drug_name": "WEZLANA",
@@ -907,7 +946,7 @@
     "application_number": "BLA761285",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761285",
-    "last_fetched": "2026-11-16T14:23:59.757646Z"
+    "last_fetched": "2026-11-23T16:57:55.012794Z"
   },
   {
     "drug_name": "LOQTORZI",
@@ -920,7 +959,7 @@
     "application_number": "BLA761240",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761240",
-    "last_fetched": "2026-11-16T14:23:59.759710Z"
+    "last_fetched": "2026-11-23T16:57:55.017831Z"
   },
   {
     "drug_name": "OMVOH",
@@ -933,20 +972,7 @@
     "application_number": "BLA761279",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761279",
-    "last_fetched": "2026-11-16T14:23:59.757623Z"
-  },
-  {
-    "drug_name": "ZYMFENTRA",
-    "inn": "INFLIXIMAB-DYYB",
-    "company": "CELLTRION",
-    "approval_date": "20231020",
-    "indication": "1 INDICATIONS AND USAGE ZYMFENTRA is a tumor necrosis factor (TNF) blocker indicated in adults for maintenance treatment of: moderately to severely active ulcerative colitis following treatment with an infliximab product administered intravenously.",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA761358",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761358",
-    "last_fetched": "2026-11-16T14:23:59.758466Z"
+    "last_fetched": "2026-11-23T16:57:55.012649Z"
   },
   {
     "drug_name": "BIMZELX",
@@ -959,7 +985,7 @@
     "application_number": "BLA761151",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761151",
-    "last_fetched": "2026-11-16T14:23:59.761033Z"
+    "last_fetched": "2026-11-23T16:57:55.016661Z"
   },
   {
     "drug_name": "COSENTYX",
@@ -972,7 +998,7 @@
     "application_number": "BLA761349",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761349",
-    "last_fetched": "2026-11-16T14:23:59.758424Z"
+    "last_fetched": "2026-11-23T16:57:55.012532Z"
   },
   {
     "drug_name": "TOFIDENCE",
@@ -985,7 +1011,7 @@
     "application_number": "BLA761354",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761354",
-    "last_fetched": "2026-11-16T14:23:59.758502Z"
+    "last_fetched": "2026-11-23T16:57:55.012482Z"
   },
   {
     "drug_name": "TYRUKO",
@@ -998,7 +1024,7 @@
     "application_number": "BLA761322",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761322",
-    "last_fetched": "2026-11-16T14:23:59.758024Z"
+    "last_fetched": "2026-11-23T16:57:55.013236Z"
   },
   {
     "drug_name": "VEOPOZ",
@@ -1011,7 +1037,7 @@
     "application_number": "BLA761339",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761339",
-    "last_fetched": "2026-11-16T14:23:59.758256Z"
+    "last_fetched": "2026-11-23T16:57:55.013358Z"
   },
   {
     "drug_name": "ELREXFIO",
@@ -1024,7 +1050,7 @@
     "application_number": "BLA761345",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761345",
-    "last_fetched": "2026-11-16T14:23:59.758353Z"
+    "last_fetched": "2026-11-23T16:57:55.013603Z"
   },
   {
     "drug_name": "TALVEY",
@@ -1037,7 +1063,7 @@
     "application_number": "BLA761342",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761342",
-    "last_fetched": "2026-11-16T14:23:59.758211Z"
+    "last_fetched": "2026-11-23T16:57:55.013513Z"
   },
   {
     "drug_name": "BEYFORTUS",
@@ -1050,7 +1076,7 @@
     "application_number": "BLA761328",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761328",
-    "last_fetched": "2026-11-16T14:23:59.758127Z"
+    "last_fetched": "2026-11-23T16:57:55.013322Z"
   },
   {
     "drug_name": "RYSTIGGO",
@@ -1063,7 +1089,7 @@
     "application_number": "BLA761286",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761286",
-    "last_fetched": "2026-11-16T14:23:59.757663Z"
+    "last_fetched": "2026-11-23T16:57:55.012836Z"
   },
   {
     "drug_name": "COLUMVI",
@@ -1076,7 +1102,7 @@
     "application_number": "BLA761309",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761309",
-    "last_fetched": "2026-11-16T14:23:59.757765Z"
+    "last_fetched": "2026-11-23T16:57:55.013075Z"
   },
   {
     "drug_name": "YUFLYMA",
@@ -1089,7 +1115,7 @@
     "application_number": "BLA761219",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761219",
-    "last_fetched": "2026-11-16T14:23:59.757092Z"
+    "last_fetched": "2026-11-23T16:57:55.017668Z"
   },
   {
     "drug_name": "EPKINLY",
@@ -1102,7 +1128,7 @@
     "application_number": "BLA761324",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761324",
-    "last_fetched": "2026-11-16T14:23:59.757985Z"
+    "last_fetched": "2026-11-23T16:57:55.013252Z"
   },
   {
     "drug_name": "ELFABRIO",
@@ -1115,7 +1141,7 @@
     "application_number": "BLA761161",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761161",
-    "last_fetched": "2026-11-16T14:23:59.761052Z"
+    "last_fetched": "2026-11-23T16:57:55.016744Z"
   },
   {
     "drug_name": "ZYNYZ",
@@ -1128,20 +1154,7 @@
     "application_number": "BLA761334",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761334",
-    "last_fetched": "2026-11-16T14:23:59.758181Z"
-  },
-  {
-    "drug_name": "LEQEMBI",
-    "inn": "LECANEMAB-IRMB",
-    "company": "EISAI INC",
-    "approval_date": "20230106",
-    "indication": "1 INDICATIONS AND USAGE LEQEMBI is indicated for the treatment of Alzheimer’s disease.",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA761269",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761269",
-    "last_fetched": "2026-11-16T14:23:59.757411Z"
+    "last_fetched": "2026-11-23T16:57:55.013377Z"
   },
   {
     "drug_name": "BRIUMVI",
@@ -1154,7 +1167,7 @@
     "application_number": "BLA761238",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761238",
-    "last_fetched": "2026-11-16T14:23:59.759693Z"
+    "last_fetched": "2026-11-23T16:57:55.017878Z"
   },
   {
     "drug_name": "LUNSUMIO VELO",
@@ -1167,20 +1180,20 @@
     "application_number": "BLA761263",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761263",
-    "last_fetched": "2026-11-16T14:23:59.757436Z"
+    "last_fetched": "2026-11-23T16:57:55.018012Z"
   },
   {
     "drug_name": "TZIELD",
     "inn": "TEPLIZUMAB-MZWV",
     "company": "PROVENTION BIO INC",
     "approval_date": "20221117",
-    "indication": "",
+    "indication": "1 INDICATIONS AND USAGE TZIELD is indicated to [see Dosage and Administration (2.1) ]: Delay the onset of Stage 3 type 1 diabetes (T1D) in adult and pediatric patients 1 year of age and older with Stage 2 T1D.",
     "patent_status": "Active",
     "revenue_2025": null,
     "application_number": "BLA761183",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761183",
-    "last_fetched": "2026-11-16T14:23:59.756789Z"
+    "last_fetched": "2026-11-23T16:57:55.017071Z"
   },
   {
     "drug_name": "ELAHERE",
@@ -1193,33 +1206,33 @@
     "application_number": "BLA761310",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761310",
-    "last_fetched": "2026-11-16T14:23:59.757934Z"
-  },
-  {
-    "drug_name": "IMJUDO",
-    "inn": "TREMELIMUMAB-ACTL",
-    "company": "ASTRAZENECA AB",
-    "approval_date": "20221110",
-    "indication": "",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA761270",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761270",
-    "last_fetched": "2026-11-16T14:23:59.757515Z"
+    "last_fetched": "2026-11-23T16:57:55.013002Z"
   },
   {
     "drug_name": "TECVAYLI",
     "inn": "TECLISTAMAB-CQYV",
     "company": "JANSSEN BIOTECH",
     "approval_date": "20221025",
-    "indication": "",
+    "indication": "1 INDICATIONS AND USAGE TECVAYLI is indicated for the treatment of adult patients with relapsed or refractory multiple myeloma in combination with daratumumab and hyaluronidase-fihj in patients who have received at least one prior line of therapy, including a proteasome inhibitor and an immunomodula",
     "patent_status": "Active",
     "revenue_2025": null,
     "application_number": "BLA761291",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761291",
-    "last_fetched": "2026-11-16T14:23:59.757732Z"
+    "last_fetched": "2026-11-23T16:57:55.012769Z"
+  },
+  {
+    "drug_name": "IMJUDO",
+    "inn": "TREMELIMUMAB-ACTL",
+    "company": "ASTRAZENECA AB",
+    "approval_date": "20221021",
+    "indication": "1 INDICATIONS AND USAGE IMJUDO is a cytotoxic T-lymphocyte-associated antigen 4 (CTLA-4) blocking antibody indicated: • in combination with durvalumab, for the treatment of adult patients with unresectable hepatocellular carcinoma (uHCC).",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA761289",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761289",
+    "last_fetched": "2026-11-23T16:57:55.012857Z"
   },
   {
     "drug_name": "VEGZELMA",
@@ -1232,7 +1245,7 @@
     "application_number": "BLA761268",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761268",
-    "last_fetched": "2026-11-16T14:23:59.757473Z"
+    "last_fetched": "2026-11-23T16:57:55.018262Z"
   },
   {
     "drug_name": "SPEVIGO",
@@ -1245,7 +1258,7 @@
     "application_number": "BLA761244",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761244",
-    "last_fetched": "2026-11-16T14:23:59.759722Z"
+    "last_fetched": "2026-11-23T16:57:55.017984Z"
   },
   {
     "drug_name": "CIMERLI",
@@ -1258,20 +1271,7 @@
     "application_number": "BLA761165",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761165",
-    "last_fetched": "2026-11-16T14:23:59.761087Z"
-  },
-  {
-    "drug_name": "SKYRIZI",
-    "inn": "RISANKIZUMAB-RZAA",
-    "company": "ABBVIE INC",
-    "approval_date": "20220616",
-    "indication": "1 INDICATIONS AND USAGE SKYRIZI is an interleukin-23 antagonist indicated for the treatment of: moderate-to-severe plaque psoriasis in adults and pediatric patients 6 years of age and older who are candidates for systemic therapy or phototherapy.",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA761262",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761262",
-    "last_fetched": "2026-11-16T14:23:59.757277Z"
+    "last_fetched": "2026-11-23T16:57:55.016787Z"
   },
   {
     "drug_name": "ALYMSYS",
@@ -1284,20 +1284,7 @@
     "application_number": "BLA761231",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761231",
-    "last_fetched": "2026-11-16T14:23:59.757140Z"
-  },
-  {
-    "drug_name": "OPDUALAG",
-    "inn": "NIVOLUMAB",
-    "company": "BRISTOL MYERS SQUIBB",
-    "approval_date": "20220318",
-    "indication": "1 INDICATIONS AND USAGE OPDUALAG™ is indicated for the treatment of adult and pediatric patients 12 years of age or older with unresectable or metastatic melanoma.",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA761234",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761234",
-    "last_fetched": "2026-11-16T14:23:59.756523Z"
+    "last_fetched": "2026-11-23T16:57:55.017790Z"
   },
   {
     "drug_name": "ENJAYMO",
@@ -1310,7 +1297,7 @@
     "application_number": "BLA761164",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761164",
-    "last_fetched": "2026-11-16T14:23:59.761044Z"
+    "last_fetched": "2026-11-23T16:57:55.016732Z"
   },
   {
     "drug_name": "VABYSMO",
@@ -1323,7 +1310,7 @@
     "application_number": "BLA761235",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761235",
-    "last_fetched": "2026-11-16T14:23:59.756538Z"
+    "last_fetched": "2026-11-23T16:57:55.017861Z"
   },
   {
     "drug_name": "ADBRY",
@@ -1336,7 +1323,7 @@
     "application_number": "BLA761180",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761180",
-    "last_fetched": "2026-11-16T14:23:59.756687Z"
+    "last_fetched": "2026-11-23T16:57:55.017133Z"
   },
   {
     "drug_name": "YUSIMRY",
@@ -1349,7 +1336,7 @@
     "application_number": "BLA761216",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761216",
-    "last_fetched": "2026-11-16T14:23:59.757075Z"
+    "last_fetched": "2026-11-23T16:57:55.017573Z"
   },
   {
     "drug_name": "TEZSPIRE",
@@ -1362,20 +1349,7 @@
     "application_number": "BLA761224",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761224",
-    "last_fetched": "2026-11-16T14:23:59.757196Z"
-  },
-  {
-    "drug_name": "SUSVIMO",
-    "inn": "RANIBIZUMAB",
-    "company": "GENENTECH INC",
-    "approval_date": "20211022",
-    "indication": "1 INDICATIONS AND USAGE SUSVIMO (ranibizumab injection) is a vascular endothelial growth factor (VEGF) inhibitor indicated for the treatment of patients with: Neovascular (wet) Age-related Macular Degeneration (AMD) who have previously responded to at least two intravitreal injections of a VEGF inhi",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA761197",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761197",
-    "last_fetched": "2026-11-16T14:23:59.756939Z"
+    "last_fetched": "2026-11-23T16:57:55.017640Z"
   },
   {
     "drug_name": "TIVDAK",
@@ -1388,7 +1362,7 @@
     "application_number": "BLA761208",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761208",
-    "last_fetched": "2026-11-16T14:23:59.756948Z"
+    "last_fetched": "2026-11-23T16:57:55.017537Z"
   },
   {
     "drug_name": "BYOOVIZ",
@@ -1401,7 +1375,7 @@
     "application_number": "BLA761202",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761202",
-    "last_fetched": "2026-11-16T14:23:59.756964Z"
+    "last_fetched": "2026-11-23T16:57:55.017513Z"
   },
   {
     "drug_name": "ADUHELM",
@@ -1414,7 +1388,7 @@
     "application_number": "BLA761178",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761178",
-    "last_fetched": "2026-11-16T14:23:59.756612Z"
+    "last_fetched": "2026-11-23T16:57:55.016919Z"
   },
   {
     "drug_name": "RYBREVANT",
@@ -1427,7 +1401,7 @@
     "application_number": "BLA761210",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761210",
-    "last_fetched": "2026-11-16T14:23:59.757014Z"
+    "last_fetched": "2026-11-23T16:57:55.017493Z"
   },
   {
     "drug_name": "ZYNLONTA",
@@ -1440,7 +1414,7 @@
     "application_number": "BLA761196",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761196",
-    "last_fetched": "2026-11-16T14:23:59.756874Z"
+    "last_fetched": "2026-11-23T16:57:55.017287Z"
   },
   {
     "drug_name": "JEMPERLI",
@@ -1453,7 +1427,7 @@
     "application_number": "BLA761174",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761174",
-    "last_fetched": "2026-11-16T14:23:59.756625Z"
+    "last_fetched": "2026-11-23T16:57:55.016967Z"
   },
   {
     "drug_name": "REPATHA",
@@ -1466,7 +1440,7 @@
     "application_number": "BLA125522",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125522",
-    "last_fetched": "2026-11-16T14:23:59.759346Z"
+    "last_fetched": "2026-11-23T16:57:55.014106Z"
   },
   {
     "drug_name": "EVKEEZA",
@@ -1479,7 +1453,7 @@
     "application_number": "BLA761181",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761181",
-    "last_fetched": "2026-11-16T14:23:59.756777Z"
+    "last_fetched": "2026-11-23T16:57:55.017146Z"
   },
   {
     "drug_name": "EBANGA",
@@ -1492,7 +1466,7 @@
     "application_number": "BLA761172",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761172",
-    "last_fetched": "2026-11-16T14:23:59.756605Z"
+    "last_fetched": "2026-11-23T16:57:55.016911Z"
   },
   {
     "drug_name": "RIABNI",
@@ -1505,7 +1479,7 @@
     "application_number": "BLA761140",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761140",
-    "last_fetched": "2026-11-16T14:23:59.760913Z"
+    "last_fetched": "2026-11-23T16:57:55.016551Z"
   },
   {
     "drug_name": "MARGENZA",
@@ -1518,7 +1492,7 @@
     "application_number": "BLA761150",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761150",
-    "last_fetched": "2026-11-16T14:23:59.761028Z"
+    "last_fetched": "2026-11-23T16:57:55.016684Z"
   },
   {
     "drug_name": "DANYELZA",
@@ -1531,7 +1505,7 @@
     "application_number": "BLA761171",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761171",
-    "last_fetched": "2026-11-16T14:23:59.756598Z"
+    "last_fetched": "2026-11-23T16:57:55.016860Z"
   },
   {
     "drug_name": "INMAZEB",
@@ -1544,7 +1518,7 @@
     "application_number": "BLA761169",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761169",
-    "last_fetched": "2026-11-16T14:23:59.761075Z"
+    "last_fetched": "2026-11-23T16:57:55.016846Z"
   },
   {
     "drug_name": "ENSPRYNG",
@@ -1557,7 +1531,7 @@
     "application_number": "BLA761149",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761149",
-    "last_fetched": "2026-11-16T14:23:59.760986Z"
+    "last_fetched": "2026-11-23T16:57:55.016676Z"
   },
   {
     "drug_name": "MONJUVI",
@@ -1570,7 +1544,7 @@
     "application_number": "BLA761163",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761163",
-    "last_fetched": "2026-11-16T14:23:59.761058Z"
+    "last_fetched": "2026-11-23T16:57:55.016752Z"
   },
   {
     "drug_name": "HULIO",
@@ -1583,7 +1557,7 @@
     "application_number": "BLA761154",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761154",
-    "last_fetched": "2026-11-16T14:23:59.760993Z"
+    "last_fetched": "2026-11-23T16:57:55.016700Z"
   },
   {
     "drug_name": "PHESGO",
@@ -1596,7 +1570,7 @@
     "application_number": "BLA761170",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761170",
-    "last_fetched": "2026-11-16T14:23:59.756581Z"
+    "last_fetched": "2026-11-23T16:57:55.016771Z"
   },
   {
     "drug_name": "UPLIZNA",
@@ -1609,7 +1583,7 @@
     "application_number": "BLA761142",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761142",
-    "last_fetched": "2026-11-16T14:23:59.760949Z"
+    "last_fetched": "2026-11-23T16:57:55.016522Z"
   },
   {
     "drug_name": "DARZALEX FASPRO",
@@ -1622,7 +1596,7 @@
     "application_number": "BLA761145",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761145",
-    "last_fetched": "2026-11-16T14:23:59.760960Z"
+    "last_fetched": "2026-11-23T16:57:55.016609Z"
   },
   {
     "drug_name": "TRODELVY",
@@ -1635,7 +1609,7 @@
     "application_number": "BLA761115",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761115",
-    "last_fetched": "2026-11-16T14:23:59.760788Z"
+    "last_fetched": "2026-11-23T16:57:55.016313Z"
   },
   {
     "drug_name": "VYEPTI",
@@ -1648,7 +1622,7 @@
     "application_number": "BLA761119",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761119",
-    "last_fetched": "2026-11-16T14:23:59.760806Z"
+    "last_fetched": "2026-11-23T16:57:55.016304Z"
   },
   {
     "drug_name": "TEPEZZA",
@@ -1661,7 +1635,7 @@
     "application_number": "BLA761143",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761143",
-    "last_fetched": "2026-11-16T14:23:59.760954Z"
+    "last_fetched": "2026-11-23T16:57:55.016599Z"
   },
   {
     "drug_name": "ENHERTU",
@@ -1674,7 +1648,7 @@
     "application_number": "BLA761139",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761139",
-    "last_fetched": "2026-11-16T14:23:59.760935Z"
+    "last_fetched": "2026-11-23T16:57:55.016543Z"
   },
   {
     "drug_name": "PADCEV",
@@ -1687,7 +1661,7 @@
     "application_number": "BLA761137",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761137",
-    "last_fetched": "2026-11-16T14:23:59.760921Z"
+    "last_fetched": "2026-11-23T16:57:55.016437Z"
   },
   {
     "drug_name": "AVSOLA",
@@ -1700,7 +1674,7 @@
     "application_number": "BLA761086",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761086",
-    "last_fetched": "2026-11-16T14:23:59.760494Z"
+    "last_fetched": "2026-11-23T16:57:55.015805Z"
   },
   {
     "drug_name": "ABRILADA",
@@ -1713,7 +1687,7 @@
     "application_number": "BLA761118",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761118",
-    "last_fetched": "2026-11-16T14:23:59.760744Z"
+    "last_fetched": "2026-11-23T16:57:55.016327Z"
   },
   {
     "drug_name": "ADAKVEO",
@@ -1726,7 +1700,7 @@
     "application_number": "BLA761128",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761128",
-    "last_fetched": "2026-11-16T14:23:59.760884Z"
+    "last_fetched": "2026-11-23T16:57:55.016397Z"
   },
   {
     "drug_name": "BEOVU",
@@ -1739,7 +1713,7 @@
     "application_number": "BLA761125",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761125",
-    "last_fetched": "2026-11-16T14:23:59.760838Z"
+    "last_fetched": "2026-11-23T16:57:55.016413Z"
   },
   {
     "drug_name": "HADLIMA",
@@ -1752,7 +1726,7 @@
     "application_number": "BLA761059",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761059",
-    "last_fetched": "2026-11-16T14:23:59.759984Z"
+    "last_fetched": "2026-11-23T16:57:55.015207Z"
   },
   {
     "drug_name": "RUXIENCE",
@@ -1765,7 +1739,7 @@
     "application_number": "BLA761103",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761103",
-    "last_fetched": "2026-11-16T14:23:59.760603Z"
+    "last_fetched": "2026-11-23T16:57:55.016035Z"
   },
   {
     "drug_name": "ZIRABEV",
@@ -1778,7 +1752,7 @@
     "application_number": "BLA761099",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761099",
-    "last_fetched": "2026-11-16T14:23:59.760541Z"
+    "last_fetched": "2026-11-23T16:57:55.015994Z"
   },
   {
     "drug_name": "KANJINTI",
@@ -1791,7 +1765,7 @@
     "application_number": "BLA761073",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761073",
-    "last_fetched": "2026-11-16T14:23:59.760293Z"
+    "last_fetched": "2026-11-23T16:57:55.015556Z"
   },
   {
     "drug_name": "POLIVY",
@@ -1804,7 +1778,20 @@
     "application_number": "BLA761121",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761121",
-    "last_fetched": "2026-11-16T14:23:59.760816Z"
+    "last_fetched": "2026-11-23T16:57:55.016355Z"
+  },
+  {
+    "drug_name": "SKYRIZI",
+    "inn": "RISANKIZUMAB-RZAA",
+    "company": "ABBVIE INC",
+    "approval_date": "20190423",
+    "indication": "1 INDICATIONS AND USAGE SKYRIZI is an interleukin-23 antagonist indicated for the treatment of: moderate-to-severe plaque psoriasis in adults and pediatric patients 6 years of age and older who are candidates for systemic therapy or phototherapy.",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA761105",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761105",
+    "last_fetched": "2026-11-23T16:57:55.016014Z"
   },
   {
     "drug_name": "EVENITY",
@@ -1817,7 +1804,7 @@
     "application_number": "BLA761062",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761062",
-    "last_fetched": "2026-11-16T14:23:59.760064Z"
+    "last_fetched": "2026-11-23T16:57:55.015198Z"
   },
   {
     "drug_name": "TRAZIMERA",
@@ -1830,7 +1817,7 @@
     "application_number": "BLA761081",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761081",
-    "last_fetched": "2026-11-16T14:23:59.760441Z"
+    "last_fetched": "2026-11-23T16:57:55.015646Z"
   },
   {
     "drug_name": "HERCEPTIN HYLECTA",
@@ -1843,7 +1830,7 @@
     "application_number": "BLA761106",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761106",
-    "last_fetched": "2026-11-16T14:23:59.760653Z"
+    "last_fetched": "2026-11-23T16:57:55.016206Z"
   },
   {
     "drug_name": "CABLIVI",
@@ -1856,7 +1843,7 @@
     "application_number": "BLA761112",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761112",
-    "last_fetched": "2026-11-16T14:23:59.760659Z"
+    "last_fetched": "2026-11-23T16:57:55.016293Z"
   },
   {
     "drug_name": "ONTRUZANT",
@@ -1869,7 +1856,7 @@
     "application_number": "BLA761100",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761100",
-    "last_fetched": "2026-11-16T14:23:59.760588Z"
+    "last_fetched": "2026-11-23T16:57:55.015955Z"
   },
   {
     "drug_name": "ULTOMIRIS",
@@ -1882,7 +1869,7 @@
     "application_number": "BLA761108",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761108",
-    "last_fetched": "2026-11-16T14:23:59.760680Z"
+    "last_fetched": "2026-11-23T16:57:55.016237Z"
   },
   {
     "drug_name": "HERZUMA",
@@ -1895,7 +1882,7 @@
     "application_number": "BLA761091",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761091",
-    "last_fetched": "2026-11-16T14:23:59.760527Z"
+    "last_fetched": "2026-11-23T16:57:55.015941Z"
   },
   {
     "drug_name": "TRUXIMA",
@@ -1908,7 +1895,7 @@
     "application_number": "BLA761088",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761088",
-    "last_fetched": "2026-11-16T14:23:59.760461Z"
+    "last_fetched": "2026-11-23T16:57:55.015815Z"
   },
   {
     "drug_name": "GAMIFANT",
@@ -1921,7 +1908,7 @@
     "application_number": "BLA761107",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761107",
-    "last_fetched": "2026-11-16T14:23:59.760625Z"
+    "last_fetched": "2026-11-23T16:57:55.016214Z"
   },
   {
     "drug_name": "HYRIMOZ",
@@ -1934,7 +1921,7 @@
     "application_number": "BLA761071",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761071",
-    "last_fetched": "2026-11-16T14:23:59.760176Z"
+    "last_fetched": "2026-11-23T16:57:55.015495Z"
   },
   {
     "drug_name": "LIBTAYO",
@@ -1947,7 +1934,7 @@
     "application_number": "BLA761097",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761097",
-    "last_fetched": "2026-11-16T14:23:59.760565Z"
+    "last_fetched": "2026-11-23T16:57:55.015979Z"
   },
   {
     "drug_name": "EMGALITY",
@@ -1960,7 +1947,7 @@
     "application_number": "BLA761063",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761063",
-    "last_fetched": "2026-11-16T14:23:59.760093Z"
+    "last_fetched": "2026-11-23T16:57:55.015290Z"
   },
   {
     "drug_name": "AJOVY",
@@ -1973,7 +1960,7 @@
     "application_number": "BLA761089",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761089",
-    "last_fetched": "2026-11-16T14:23:59.760508Z"
+    "last_fetched": "2026-11-23T16:57:55.015770Z"
   },
   {
     "drug_name": "LUMOXITI",
@@ -1986,7 +1973,7 @@
     "application_number": "BLA761104",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761104",
-    "last_fetched": "2026-11-16T14:23:59.760570Z"
+    "last_fetched": "2026-11-23T16:57:55.016097Z"
   },
   {
     "drug_name": "TAKHZYRO",
@@ -1999,7 +1986,7 @@
     "application_number": "BLA761090",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761090",
-    "last_fetched": "2026-11-16T14:23:59.760515Z"
+    "last_fetched": "2026-11-23T16:57:55.015915Z"
   },
   {
     "drug_name": "POTELIGEO",
@@ -2012,7 +1999,7 @@
     "application_number": "BLA761051",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761051",
-    "last_fetched": "2026-11-16T14:23:59.759784Z"
+    "last_fetched": "2026-11-23T16:57:55.015052Z"
   },
   {
     "drug_name": "AIMOVIG",
@@ -2025,7 +2012,7 @@
     "application_number": "BLA761077",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761077",
-    "last_fetched": "2026-11-16T14:23:59.760366Z"
+    "last_fetched": "2026-11-23T16:57:55.015534Z"
   },
   {
     "drug_name": "CRYSVITA",
@@ -2038,7 +2025,7 @@
     "application_number": "BLA761068",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761068",
-    "last_fetched": "2026-11-16T14:23:59.760107Z"
+    "last_fetched": "2026-11-23T16:57:55.015443Z"
   },
   {
     "drug_name": "ILUMYA",
@@ -2051,7 +2038,7 @@
     "application_number": "BLA761067",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761067",
-    "last_fetched": "2026-11-16T14:23:59.760151Z"
+    "last_fetched": "2026-11-23T16:57:55.015418Z"
   },
   {
     "drug_name": "TROGARZO",
@@ -2064,7 +2051,7 @@
     "application_number": "BLA761065",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761065",
-    "last_fetched": "2026-11-16T14:23:59.760120Z"
+    "last_fetched": "2026-11-23T16:57:55.015268Z"
   },
   {
     "drug_name": "IXIFI",
@@ -2077,7 +2064,7 @@
     "application_number": "BLA761072",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761072",
-    "last_fetched": "2026-11-16T14:23:59.760280Z"
+    "last_fetched": "2026-11-23T16:57:55.015515Z"
   },
   {
     "drug_name": "OGIVRI",
@@ -2090,7 +2077,7 @@
     "application_number": "BLA761074",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761074",
-    "last_fetched": "2026-11-16T14:23:59.760319Z"
+    "last_fetched": "2026-11-23T16:57:55.015576Z"
   },
   {
     "drug_name": "HEMLIBRA",
@@ -2103,7 +2090,7 @@
     "application_number": "BLA761083",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761083",
-    "last_fetched": "2026-11-16T14:23:59.760405Z"
+    "last_fetched": "2026-11-23T16:57:55.015739Z"
   },
   {
     "drug_name": "FASENRA",
@@ -2116,7 +2103,7 @@
     "application_number": "BLA761070",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761070",
-    "last_fetched": "2026-11-16T14:23:59.760229Z"
+    "last_fetched": "2026-11-23T16:57:55.015478Z"
   },
   {
     "drug_name": "MVASI",
@@ -2129,7 +2116,7 @@
     "application_number": "BLA761028",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761028",
-    "last_fetched": "2026-11-16T14:23:59.759228Z"
+    "last_fetched": "2026-11-23T16:57:55.014496Z"
   },
   {
     "drug_name": "MYLOTARG",
@@ -2142,7 +2129,7 @@
     "application_number": "BLA761060",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761060",
-    "last_fetched": "2026-11-16T14:23:59.759936Z"
+    "last_fetched": "2026-11-23T16:57:55.015223Z"
   },
   {
     "drug_name": "CYLTEZO",
@@ -2155,7 +2142,7 @@
     "application_number": "BLA761058",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761058",
-    "last_fetched": "2026-11-16T14:23:59.759950Z"
+    "last_fetched": "2026-11-23T16:57:55.015080Z"
   },
   {
     "drug_name": "BESPONSA",
@@ -2168,7 +2155,7 @@
     "application_number": "BLA761040",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761040",
-    "last_fetched": "2026-11-16T14:23:59.759594Z"
+    "last_fetched": "2026-11-23T16:57:55.014812Z"
   },
   {
     "drug_name": "TREMFYA",
@@ -2181,7 +2168,20 @@
     "application_number": "BLA761061",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761061",
-    "last_fetched": "2026-11-16T14:23:59.760047Z"
+    "last_fetched": "2026-11-23T16:57:55.015250Z"
+  },
+  {
+    "drug_name": "RITUXAN HYCELA",
+    "inn": "RITUXIMAB",
+    "company": "GENENTECH INC",
+    "approval_date": "20170622",
+    "indication": "1 INDICATIONS AND USAGE RITUXAN HYCELA is a combination of rituximab, a CD20-directed cytolytic antibody, and hyaluronidase human, an endoglycosidase, indicated for the treatment of adult patients with: Follicular Lymphoma (FL) ( 1.1 ) Relapsed or refractory, follicular lymphoma as a single agent Pr",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA761064",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761064",
+    "last_fetched": "2026-11-23T16:57:55.015312Z"
   },
   {
     "drug_name": "KEVZARA",
@@ -2194,7 +2194,7 @@
     "application_number": "BLA761037",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761037",
-    "last_fetched": "2026-11-16T14:23:59.759499Z"
+    "last_fetched": "2026-11-23T16:57:55.014711Z"
   },
   {
     "drug_name": "IMFINZI",
@@ -2207,7 +2207,7 @@
     "application_number": "BLA761069",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761069",
-    "last_fetched": "2026-11-16T14:23:59.760193Z"
+    "last_fetched": "2026-11-23T16:57:55.015357Z"
   },
   {
     "drug_name": "RENFLEXIS",
@@ -2220,20 +2220,7 @@
     "application_number": "BLA761054",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761054",
-    "last_fetched": "2026-11-16T14:23:59.759919Z"
-  },
-  {
-    "drug_name": "DUPIXENT",
-    "inn": "DUPILUMAB",
-    "company": "REGENERON PHARMACEUTICALS",
-    "approval_date": "20170328",
-    "indication": "1 INDICATIONS AND USAGE DUPIXENT is an interleukin-4 receptor alpha antagonist indicated: Atopic Dermatitis for the treatment of adult and pediatric patients aged 6 months and older with moderate-to-severe AD whose disease is not adequately controlled with topical prescription therapies or when thos",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA761055",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761055",
-    "last_fetched": "2026-11-16T14:23:59.759866Z"
+    "last_fetched": "2026-11-23T16:57:55.015144Z"
   },
   {
     "drug_name": "OCREVUS",
@@ -2246,7 +2233,20 @@
     "application_number": "BLA761053",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761053",
-    "last_fetched": "2026-11-16T14:23:59.759906Z"
+    "last_fetched": "2026-11-23T16:57:55.015127Z"
+  },
+  {
+    "drug_name": "DUPIXENT",
+    "inn": "DUPILUMAB",
+    "company": "REGENERON PHARMACEUTICALS",
+    "approval_date": "20170328",
+    "indication": "1 INDICATIONS AND USAGE DUPIXENT is an interleukin-4 receptor alpha antagonist indicated: Atopic Dermatitis for the treatment of adult and pediatric patients aged 6 months and older with moderate-to-severe AD whose disease is not adequately controlled with topical prescription therapies or when thos",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA761055",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761055",
+    "last_fetched": "2026-11-23T16:57:55.015168Z"
   },
   {
     "drug_name": "BAVENCIO",
@@ -2259,7 +2259,7 @@
     "application_number": "BLA761049",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761049",
-    "last_fetched": "2026-11-16T14:23:59.759848Z"
+    "last_fetched": "2026-11-23T16:57:55.015004Z"
   },
   {
     "drug_name": "SILIQ",
@@ -2272,7 +2272,7 @@
     "application_number": "BLA761032",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761032",
-    "last_fetched": "2026-11-16T14:23:59.759151Z"
+    "last_fetched": "2026-11-23T16:57:55.014436Z"
   },
   {
     "drug_name": "ZINPLAVA",
@@ -2285,7 +2285,7 @@
     "application_number": "BLA761046",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761046",
-    "last_fetched": "2026-11-16T14:23:59.759816Z"
+    "last_fetched": "2026-11-23T16:57:55.014967Z"
   },
   {
     "drug_name": "LARTRUVO",
@@ -2298,7 +2298,7 @@
     "application_number": "BLA761038",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761038",
-    "last_fetched": "2026-11-16T14:23:59.759543Z"
+    "last_fetched": "2026-11-23T16:57:55.014746Z"
   },
   {
     "drug_name": "AMJEVITA",
@@ -2311,7 +2311,7 @@
     "application_number": "BLA761024",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761024",
-    "last_fetched": "2026-11-16T14:23:59.759126Z"
+    "last_fetched": "2026-11-23T16:57:55.014381Z"
   },
   {
     "drug_name": "ZINBRYTA",
@@ -2324,7 +2324,7 @@
     "application_number": "BLA761029",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761029",
-    "last_fetched": "2026-11-16T14:23:59.759289Z"
+    "last_fetched": "2026-11-23T16:57:55.014518Z"
   },
   {
     "drug_name": "TECENTRIQ",
@@ -2337,7 +2337,20 @@
     "application_number": "BLA761034",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761034",
-    "last_fetched": "2026-11-16T14:23:59.759356Z"
+    "last_fetched": "2026-11-23T16:57:55.014606Z"
+  },
+  {
+    "drug_name": "INFLECTRA",
+    "inn": "INFLIXIMAB-DYYB",
+    "company": "CELLTRION INC",
+    "approval_date": "20160405",
+    "indication": "1 INDICATIONS AND USAGE INFLECTRA is a tumor necrosis factor (TNF) blocker indicated for: Crohn's Disease ( 1.1 ): • reducing signs and symptoms and inducing and maintaining clinical remission in adult patients with moderately to severely active disease who have had an inadequate response to convent",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA125544",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125544",
+    "last_fetched": "2026-11-23T16:57:55.014188Z"
   },
   {
     "drug_name": "CINQAIR",
@@ -2350,7 +2363,7 @@
     "application_number": "BLA761033",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761033",
-    "last_fetched": "2026-11-16T14:23:59.759329Z"
+    "last_fetched": "2026-11-23T16:57:55.014578Z"
   },
   {
     "drug_name": "TALTZ",
@@ -2363,7 +2376,7 @@
     "application_number": "BLA125521",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125521",
-    "last_fetched": "2026-11-16T14:23:59.759322Z"
+    "last_fetched": "2026-11-23T16:57:55.014089Z"
   },
   {
     "drug_name": "ANTHIM",
@@ -2376,7 +2389,7 @@
     "application_number": "BLA125509",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125509",
-    "last_fetched": "2026-11-16T14:23:59.759059Z"
+    "last_fetched": "2026-11-23T16:57:55.013854Z"
   },
   {
     "drug_name": "EMPLICITI",
@@ -2389,7 +2402,7 @@
     "application_number": "BLA761035",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761035",
-    "last_fetched": "2026-11-16T14:23:59.759379Z"
+    "last_fetched": "2026-11-23T16:57:55.014636Z"
   },
   {
     "drug_name": "PORTRAZZA",
@@ -2402,20 +2415,20 @@
     "application_number": "BLA125547",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125547",
-    "last_fetched": "2026-11-16T14:23:59.759417Z"
+    "last_fetched": "2026-11-23T16:57:55.014147Z"
   },
   {
     "drug_name": "DARZALEX",
     "inn": "DARATUMUMAB",
     "company": "JANSSEN BIOTECH",
     "approval_date": "20151116",
-    "indication": "",
+    "indication": "1 INDICATIONS AND USAGE DARZALEX is indicated for the treatment of adult patients with multiple myeloma: in combination with lenalidomide and dexamethasone in newly diagnosed patients who are ineligible for autologous stem cell transplant and in patients with relapsed or refractory multiple myeloma",
     "patent_status": "Active",
     "revenue_2025": null,
     "application_number": "BLA761036",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761036",
-    "last_fetched": "2026-11-16T14:23:59.759447Z"
+    "last_fetched": "2026-11-23T16:57:55.014545Z"
   },
   {
     "drug_name": "NUCALA",
@@ -2428,7 +2441,7 @@
     "application_number": "BLA125526",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125526",
-    "last_fetched": "2026-11-16T14:23:59.759370Z"
+    "last_fetched": "2026-11-23T16:57:55.014121Z"
   },
   {
     "drug_name": "PRAXBIND",
@@ -2441,7 +2454,7 @@
     "application_number": "BLA761025",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761025",
-    "last_fetched": "2026-11-16T14:23:59.759066Z"
+    "last_fetched": "2026-11-23T16:57:55.014405Z"
   },
   {
     "drug_name": "PRALUENT",
@@ -2454,7 +2467,7 @@
     "application_number": "BLA125559",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125559",
-    "last_fetched": "2026-11-16T14:23:59.759560Z"
+    "last_fetched": "2026-11-23T16:57:55.014239Z"
   },
   {
     "drug_name": "UNITUXIN",
@@ -2467,7 +2480,7 @@
     "application_number": "BLA125516",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125516",
-    "last_fetched": "2026-11-16T14:23:59.759144Z"
+    "last_fetched": "2026-11-23T16:57:55.013948Z"
   },
   {
     "drug_name": "BLINCYTO",
@@ -2480,7 +2493,7 @@
     "application_number": "BLA125557",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125557",
-    "last_fetched": "2026-11-16T14:23:59.759643Z"
+    "last_fetched": "2026-11-23T16:57:55.014338Z"
   },
   {
     "drug_name": "KEYTRUDA",
@@ -2493,7 +2506,7 @@
     "application_number": "BLA125514",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125514",
-    "last_fetched": "2026-11-16T14:23:59.759260Z"
+    "last_fetched": "2026-11-23T16:57:55.014057Z"
   },
   {
     "drug_name": "SYLVANT",
@@ -2506,7 +2519,7 @@
     "application_number": "BLA125496",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125496",
-    "last_fetched": "2026-11-16T14:23:59.758961Z"
+    "last_fetched": "2026-11-23T16:57:55.013758Z"
   },
   {
     "drug_name": "CYRAMZA",
@@ -2519,7 +2532,7 @@
     "application_number": "BLA125477",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125477",
-    "last_fetched": "2026-11-16T14:23:59.759010Z"
+    "last_fetched": "2026-11-23T16:57:55.013809Z"
   },
   {
     "drug_name": "GAZYVA",
@@ -2532,7 +2545,7 @@
     "application_number": "BLA125486",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125486",
-    "last_fetched": "2026-11-16T14:23:59.759046Z"
+    "last_fetched": "2026-11-23T16:57:55.013837Z"
   },
   {
     "drug_name": "KADCYLA",
@@ -2545,7 +2558,7 @@
     "application_number": "BLA125427",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125427",
-    "last_fetched": "2026-11-16T14:23:59.758851Z"
+    "last_fetched": "2026-11-23T16:57:55.016159Z"
   },
   {
     "drug_name": "RAXIBACUMAB",
@@ -2558,7 +2571,7 @@
     "application_number": "BLA125349",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125349",
-    "last_fetched": "2026-11-16T14:23:59.758669Z"
+    "last_fetched": "2026-11-23T16:57:55.013501Z"
   },
   {
     "drug_name": "PERJETA",
@@ -2571,20 +2584,20 @@
     "application_number": "BLA125409",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125409",
-    "last_fetched": "2026-11-16T14:23:59.758804Z"
+    "last_fetched": "2026-11-23T16:57:55.012581Z"
   },
   {
     "drug_name": "ADCETRIS",
     "inn": "BRENTUXIMAB VEDOTIN",
     "company": "SEATTLE GENETICS",
     "approval_date": "20110819",
-    "indication": "1 INDICATIONS AND USAGE ADCETRIS is a CD30-directed antibody and microtubule inhibitor conjugate indicated for treatment of: • Adult patients with previously untreated Stage III or IV classical Hodgkin lymphoma (cHL), in combination with doxorubicin, vinblastine, and dacarbazine ( 1.1 ).",
+    "indication": "",
     "patent_status": "Active",
     "revenue_2025": null,
-    "application_number": "BLA125388",
+    "application_number": "BLA125399",
     "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125388",
-    "last_fetched": "2026-11-16T14:23:59.758683Z"
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125399",
+    "last_fetched": "2026-11-23T16:57:55.012561Z"
   },
   {
     "drug_name": "YERVOY",
@@ -2597,20 +2610,20 @@
     "application_number": "BLA125377",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125377",
-    "last_fetched": "2026-11-16T14:23:59.758738Z"
+    "last_fetched": "2026-11-23T16:57:55.013594Z"
   },
   {
     "drug_name": "BENLYSTA",
     "inn": "BELIMUMAB",
     "company": "HUMAN GENOME SCIENCES INC.",
     "approval_date": "20110309",
-    "indication": "",
+    "indication": "1 INDICATIONS AND USAGE BENLYSTA is indicated for the treatment of patients 5 years of age and older with: • Active systemic lupus erythematosus (SLE) who are receiving standard therapy, and • Active lupus nephritis who are receiving standard therapy.",
     "patent_status": "Active",
     "revenue_2025": null,
     "application_number": "BLA125370",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125370",
-    "last_fetched": "2026-11-16T14:23:59.758719Z"
+    "last_fetched": "2026-11-23T16:57:55.013560Z"
   },
   {
     "drug_name": "PROLIA",
@@ -2623,7 +2636,7 @@
     "application_number": "BLA125320",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125320",
-    "last_fetched": "2026-11-16T14:23:59.758591Z"
+    "last_fetched": "2026-11-23T16:57:55.013393Z"
   },
   {
     "drug_name": "ACTEMRA",
@@ -2636,7 +2649,7 @@
     "application_number": "BLA125276",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125276",
-    "last_fetched": "2026-11-16T14:23:59.758386Z"
+    "last_fetched": "2026-11-23T16:57:55.013204Z"
   },
   {
     "drug_name": "KESIMPTA",
@@ -2649,7 +2662,7 @@
     "application_number": "BLA125326",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125326",
-    "last_fetched": "2026-11-16T14:23:59.758616Z"
+    "last_fetched": "2026-11-23T16:57:55.013417Z"
   },
   {
     "drug_name": "STELARA",
@@ -2662,7 +2675,7 @@
     "application_number": "BLA125261",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125261",
-    "last_fetched": "2026-11-16T14:23:59.758319Z"
+    "last_fetched": "2026-11-23T16:57:55.013131Z"
   },
   {
     "drug_name": "ILARIS",
@@ -2675,7 +2688,7 @@
     "application_number": "BLA125319",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125319",
-    "last_fetched": "2026-11-16T14:23:59.758565Z"
+    "last_fetched": "2026-11-23T16:57:55.013368Z"
   },
   {
     "drug_name": "SIMPONI",
@@ -2688,7 +2701,7 @@
     "application_number": "BLA125289",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125289",
-    "last_fetched": "2026-11-16T14:23:59.758483Z"
+    "last_fetched": "2026-11-23T16:57:55.013302Z"
   },
   {
     "drug_name": "CIMZIA",
@@ -2701,7 +2714,7 @@
     "application_number": "BLA125160",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125160",
-    "last_fetched": "2026-11-16T14:23:59.758249Z"
+    "last_fetched": "2026-11-23T16:57:55.013017Z"
   },
   {
     "drug_name": "SOLIRIS",
@@ -2714,7 +2727,7 @@
     "application_number": "BLA125166",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125166",
-    "last_fetched": "2026-11-16T14:23:59.758201Z"
+    "last_fetched": "2026-11-23T16:57:55.012993Z"
   },
   {
     "drug_name": "VECTIBIX",
@@ -2727,7 +2740,20 @@
     "application_number": "BLA125147",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125147",
-    "last_fetched": "2026-11-16T14:23:59.758165Z"
+    "last_fetched": "2026-11-23T16:57:55.012906Z"
+  },
+  {
+    "drug_name": "LUCENTIS",
+    "inn": "RANIBIZUMAB",
+    "company": "GENENTECH",
+    "approval_date": "20060630",
+    "indication": "1 INDICATIONS AND USAGE LUCENTIS is indicated for the treatment of patients with: LUCENTIS, a vascular endothelial growth factor (VEGF) inhibitor, is indicated for the treatment of patients with: Neovascular (Wet) Age-Related Macular Degeneration (AMD) ( 1.1 ) Macular Edema Following Retinal Vein Oc",
+    "patent_status": "Active",
+    "revenue_2025": null,
+    "application_number": "BLA125156",
+    "source": "openFDA / Drugs@FDA",
+    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125156",
+    "last_fetched": "2026-11-23T16:57:55.012874Z"
   },
   {
     "drug_name": "IPLEX",
@@ -2740,7 +2766,7 @@
     "application_number": "BLA021884",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=021884",
-    "last_fetched": "2026-11-16T14:23:59.758081Z"
+    "last_fetched": "2026-11-23T16:57:55.013185Z"
   },
   {
     "drug_name": "TYSABRI",
@@ -2753,7 +2779,7 @@
     "application_number": "BLA125104",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125104",
-    "last_fetched": "2026-11-16T14:23:59.758089Z"
+    "last_fetched": "2026-11-23T16:57:55.012812Z"
   },
   {
     "drug_name": "AVASTIN",
@@ -2766,7 +2792,7 @@
     "application_number": "BLA125085",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125085",
-    "last_fetched": "2026-11-16T14:23:59.757972Z"
+    "last_fetched": "2026-11-23T16:57:55.012632Z"
   },
   {
     "drug_name": "ERBITUX",
@@ -2779,7 +2805,7 @@
     "application_number": "BLA125084",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125084",
-    "last_fetched": "2026-11-16T14:23:59.758012Z"
+    "last_fetched": "2026-11-23T16:57:55.012705Z"
   },
   {
     "drug_name": "XOLAIR",
@@ -2792,7 +2818,7 @@
     "application_number": "BLA103976",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103976",
-    "last_fetched": "2026-11-16T14:23:59.757839Z"
+    "last_fetched": "2026-11-23T16:57:55.018189Z"
   },
   {
     "drug_name": "FABRAZYME",
@@ -2805,7 +2831,7 @@
     "application_number": "BLA103979",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103979",
-    "last_fetched": "2026-11-16T14:23:59.757754Z"
+    "last_fetched": "2026-11-23T16:57:55.018000Z"
   },
   {
     "drug_name": "HUMIRA",
@@ -2818,7 +2844,7 @@
     "application_number": "BLA125057",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125057",
-    "last_fetched": "2026-11-16T14:23:59.757898Z"
+    "last_fetched": "2026-11-23T16:57:55.018231Z"
   },
   {
     "drug_name": "ZEVALIN",
@@ -2831,7 +2857,7 @@
     "application_number": "BLA125019",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125019",
-    "last_fetched": "2026-11-16T14:23:59.757943Z"
+    "last_fetched": "2026-11-23T16:57:55.018276Z"
   },
   {
     "drug_name": "LEMTRADA",
@@ -2844,7 +2870,7 @@
     "application_number": "BLA103948",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103948",
-    "last_fetched": "2026-11-16T14:23:59.757587Z"
+    "last_fetched": "2026-11-23T16:57:55.017807Z"
   },
   {
     "drug_name": "HERCEPTIN",
@@ -2857,7 +2883,7 @@
     "application_number": "BLA103792",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103792",
-    "last_fetched": "2026-11-16T14:23:59.757539Z"
+    "last_fetched": "2026-11-23T16:57:55.017724Z"
   },
   {
     "drug_name": "REMICADE",
@@ -2870,7 +2896,7 @@
     "application_number": "BLA103772",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103772",
-    "last_fetched": "2026-11-16T14:23:59.757467Z"
+    "last_fetched": "2026-11-23T16:57:55.017677Z"
   },
   {
     "drug_name": "SYNAGIS",
@@ -2883,7 +2909,7 @@
     "application_number": "BLA103770",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103770",
-    "last_fetched": "2026-11-16T14:23:59.757424Z"
+    "last_fetched": "2026-11-23T16:57:55.017648Z"
   },
   {
     "drug_name": "SIMULECT",
@@ -2896,20 +2922,7 @@
     "application_number": "BLA103764",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103764",
-    "last_fetched": "2026-11-16T14:23:59.757374Z"
-  },
-  {
-    "drug_name": "RITUXAN",
-    "inn": "RITUXIMAB",
-    "company": "GENENTECH",
-    "approval_date": "19971126",
-    "indication": "1 INDICATIONS AND USAGE RITUXAN is a CD20-directed cytolytic antibody indicated for the treatment of: Adult patients with Non-Hodgkin's Lymphoma (NHL) ( 1.1 ).",
-    "patent_status": "Active",
-    "revenue_2025": null,
-    "application_number": "BLA103705",
-    "source": "openFDA / Drugs@FDA",
-    "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103705",
-    "last_fetched": "2026-11-16T14:23:59.757295Z"
+    "last_fetched": "2026-11-23T16:57:55.017610Z"
   },
   {
     "drug_name": "PROSTASCINT",
@@ -2922,7 +2935,7 @@
     "application_number": "BLA103608",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103608",
-    "last_fetched": "2026-11-16T14:23:59.759702Z"
+    "last_fetched": "2026-11-23T16:57:55.017520Z"
   },
   {
     "drug_name": "MYOSCINT",
@@ -2935,7 +2948,7 @@
     "application_number": "BLA103634",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103634",
-    "last_fetched": "2026-11-16T14:23:59.759672Z"
+    "last_fetched": "2026-11-23T16:57:55.017483Z"
   },
   {
     "drug_name": "REOPRO",
@@ -2948,6 +2961,6 @@
     "application_number": "BLA103575",
     "source": "openFDA / Drugs@FDA",
     "source_url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103575",
-    "last_fetched": "2026-11-16T14:23:59.759686Z"
+    "last_fetched": "2026-11-23T16:57:55.017506Z"
   }
 ]
